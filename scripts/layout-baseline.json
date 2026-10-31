@@ -1,0 +1,6987 @@
+{
+  "note": "Ảnh chụp hình học từng trạng thái, sinh bằng LAYOUT_UPDATE_BASELINE=1 npm run audit:layout. Đây là hợp đồng bố cục: lệch quá tolerancePx là vi phạm hình học.",
+  "tolerancePx": 6,
+  "capturedWith": "Chromium headless, deviceScaleFactor 1, thanh cuộn ẩn",
+  "states": {
+    "1024x768::collection-all": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 1121
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 66,
+        "width": 892,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 129,
+        "left": 66,
+        "width": 892,
+        "height": 897
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 183,
+        "left": 83,
+        "width": 502,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 1121
+      }
+    },
+    "1024x768::collection-kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 830
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 66,
+        "width": 892,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 129,
+        "left": 66,
+        "width": 892,
+        "height": 605
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 183,
+        "left": 83,
+        "width": 502,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 830
+      }
+    },
+    "1024x768::collection-kanji-empty": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 768
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 66,
+        "width": 892,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 129,
+        "left": 66,
+        "width": 892,
+        "height": 274
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 768
+      }
+    },
+    "1024x768::collection-lesson": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 768
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 66,
+        "width": 892,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 129,
+        "left": 66,
+        "width": 892,
+        "height": 539
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 183,
+        "left": 83,
+        "width": 502,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 768
+      }
+    },
+    "1024x768::collection-pattern": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 768
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 66,
+        "width": 892,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 129,
+        "left": 66,
+        "width": 892,
+        "height": 259
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 768
+      }
+    },
+    "1024x768::editor": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 1388
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 98,
+        "left": 66,
+        "width": 892,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 168,
+        "left": 66,
+        "width": 892,
+        "height": 1124
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 1388
+      }
+    },
+    "1024x768::home": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 768
+      },
+      "child[0] section.card": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 193
+      },
+      "child[1] section.card": {
+        "top": 227,
+        "left": 66,
+        "width": 892,
+        "height": 444
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 768
+      }
+    },
+    "1024x768::home-resume": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 869
+      },
+      "child[0] section.card": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 193
+      },
+      "child[1] section.card": {
+        "top": 227,
+        "left": 66,
+        "width": 892,
+        "height": 444
+      },
+      "child[2] section.card": {
+        "top": 689,
+        "left": 66,
+        "width": 892,
+        "height": 84
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 869
+      }
+    },
+    "1024x768::kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 862
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] section.card": {
+        "top": 98,
+        "left": 66,
+        "width": 892,
+        "height": 668
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 862
+      }
+    },
+    "1024x768::lessons": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 768
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] section.card": {
+        "top": 98,
+        "left": 66,
+        "width": 892,
+        "height": 329
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 768
+      }
+    },
+    "1024x768::patterns": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 1372
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] section.card": {
+        "top": 98,
+        "left": 66,
+        "width": 892,
+        "height": 1178
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 1372
+      }
+    },
+    "1024x768::session-active": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 768
+      },
+      "child[0] header.study-top": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 100
+      },
+      "child[1] p.notice": {
+        "top": 148,
+        "left": 66,
+        "width": 892,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 223,
+        "left": 66,
+        "width": 892,
+        "height": 449
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 223,
+        "left": 66,
+        "width": 892,
+        "height": 449
+      },
+      "landmark .stage": {
+        "top": 223,
+        "left": 66,
+        "width": 892,
+        "height": 387
+      },
+      "landmark .study-controls": {
+        "top": 622,
+        "left": 66,
+        "width": 892,
+        "height": 50
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 768
+      }
+    },
+    "1024x768::session-revealed": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 768
+      },
+      "child[0] header.study-top": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 100
+      },
+      "child[1] p.notice": {
+        "top": 148,
+        "left": 66,
+        "width": 892,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 223,
+        "left": 66,
+        "width": 892,
+        "height": 449
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 223,
+        "left": 66,
+        "width": 892,
+        "height": 449
+      },
+      "landmark .stage": {
+        "top": 223,
+        "left": 66,
+        "width": 892,
+        "height": 291
+      },
+      "landmark .study-controls": {
+        "top": 526,
+        "left": 66,
+        "width": 892,
+        "height": 146
+      },
+      "landmark .ratings": {
+        "top": 526,
+        "left": 66,
+        "width": 892,
+        "height": 146
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 768
+      }
+    },
+    "1024x768::settings": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 1302
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] section.group": {
+        "top": 94,
+        "left": 66,
+        "width": 892,
+        "height": 234
+      },
+      "child[2] section.group": {
+        "top": 342,
+        "left": 66,
+        "width": 892,
+        "height": 158
+      },
+      "child[3] section.group": {
+        "top": 514,
+        "left": 66,
+        "width": 892,
+        "height": 391
+      },
+      "child[4] section.group": {
+        "top": 919,
+        "left": 66,
+        "width": 892,
+        "height": 76
+      },
+      "child[5] section.group": {
+        "top": 1009,
+        "left": 66,
+        "width": 892,
+        "height": 198
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "landmark .segmented": {
+        "top": 129,
+        "left": 641,
+        "width": 300,
+        "height": 48
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 1302
+      }
+    },
+    "1024x768::stats": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 2107
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] section.card": {
+        "top": 98,
+        "left": 66,
+        "width": 892,
+        "height": 303
+      },
+      "child[2] section.card": {
+        "top": 419,
+        "left": 66,
+        "width": 892,
+        "height": 441
+      },
+      "child[3] section.card": {
+        "top": 878,
+        "left": 66,
+        "width": 892,
+        "height": 928
+      },
+      "child[4] section.card": {
+        "top": 1824,
+        "left": 66,
+        "width": 892,
+        "height": 187
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 152,
+        "left": 83,
+        "width": 858,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 2107
+      }
+    },
+    "1024x768::transfer": {
+      "main.screen": {
+        "top": 0,
+        "left": 42,
+        "width": 940,
+        "height": 768
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 66,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 98,
+        "left": 66,
+        "width": 892,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 168,
+        "left": 66,
+        "width": 892,
+        "height": 198
+      },
+      "nav": {
+        "top": 704,
+        "left": 0,
+        "width": 1024,
+        "height": 64
+      },
+      "landmark .section-picker": {
+        "top": 185,
+        "left": 83,
+        "width": 407,
+        "height": 52
+      },
+      "landmark .dropzone": {
+        "top": 185,
+        "left": 514,
+        "width": 427,
+        "height": 61
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1024,
+        "height": 768
+      }
+    },
+    "1440x900::collection-all": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 1121
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 274,
+        "width": 892,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 129,
+        "left": 274,
+        "width": 892,
+        "height": 897
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 183,
+        "left": 291,
+        "width": 502,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 1121
+      }
+    },
+    "1440x900::collection-kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 900
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 274,
+        "width": 892,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 129,
+        "left": 274,
+        "width": 892,
+        "height": 605
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 183,
+        "left": 291,
+        "width": 502,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 900
+      }
+    },
+    "1440x900::collection-kanji-empty": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 900
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 274,
+        "width": 892,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 129,
+        "left": 274,
+        "width": 892,
+        "height": 274
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 900
+      }
+    },
+    "1440x900::collection-lesson": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 900
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 274,
+        "width": 892,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 129,
+        "left": 274,
+        "width": 892,
+        "height": 539
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 183,
+        "left": 291,
+        "width": 502,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 900
+      }
+    },
+    "1440x900::collection-pattern": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 900
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 274,
+        "width": 892,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 129,
+        "left": 274,
+        "width": 892,
+        "height": 259
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 900
+      }
+    },
+    "1440x900::editor": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 1388
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 98,
+        "left": 274,
+        "width": 892,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 168,
+        "left": 274,
+        "width": 892,
+        "height": 1124
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 1388
+      }
+    },
+    "1440x900::home": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 900
+      },
+      "child[0] section.card": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 193
+      },
+      "child[1] section.card": {
+        "top": 227,
+        "left": 274,
+        "width": 892,
+        "height": 444
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 900
+      }
+    },
+    "1440x900::home-resume": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 900
+      },
+      "child[0] section.card": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 193
+      },
+      "child[1] section.card": {
+        "top": 227,
+        "left": 274,
+        "width": 892,
+        "height": 444
+      },
+      "child[2] section.card": {
+        "top": 689,
+        "left": 274,
+        "width": 892,
+        "height": 84
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 900
+      }
+    },
+    "1440x900::kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 900
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] section.card": {
+        "top": 98,
+        "left": 274,
+        "width": 892,
+        "height": 668
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 900
+      }
+    },
+    "1440x900::lessons": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 900
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] section.card": {
+        "top": 98,
+        "left": 274,
+        "width": 892,
+        "height": 329
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 900
+      }
+    },
+    "1440x900::patterns": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 1372
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] section.card": {
+        "top": 98,
+        "left": 274,
+        "width": 892,
+        "height": 1178
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 1372
+      }
+    },
+    "1440x900::session-active": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 900
+      },
+      "child[0] header.study-top": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 100
+      },
+      "child[1] p.notice": {
+        "top": 148,
+        "left": 274,
+        "width": 892,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 223,
+        "left": 274,
+        "width": 892,
+        "height": 581
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 223,
+        "left": 274,
+        "width": 892,
+        "height": 581
+      },
+      "landmark .stage": {
+        "top": 223,
+        "left": 274,
+        "width": 892,
+        "height": 519
+      },
+      "landmark .study-controls": {
+        "top": 754,
+        "left": 274,
+        "width": 892,
+        "height": 50
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 900
+      }
+    },
+    "1440x900::session-revealed": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 900
+      },
+      "child[0] header.study-top": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 100
+      },
+      "child[1] p.notice": {
+        "top": 148,
+        "left": 274,
+        "width": 892,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 223,
+        "left": 274,
+        "width": 892,
+        "height": 581
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 223,
+        "left": 274,
+        "width": 892,
+        "height": 581
+      },
+      "landmark .stage": {
+        "top": 223,
+        "left": 274,
+        "width": 892,
+        "height": 423
+      },
+      "landmark .study-controls": {
+        "top": 658,
+        "left": 274,
+        "width": 892,
+        "height": 146
+      },
+      "landmark .ratings": {
+        "top": 658,
+        "left": 274,
+        "width": 892,
+        "height": 146
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 900
+      }
+    },
+    "1440x900::settings": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 1302
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] section.group": {
+        "top": 94,
+        "left": 274,
+        "width": 892,
+        "height": 234
+      },
+      "child[2] section.group": {
+        "top": 342,
+        "left": 274,
+        "width": 892,
+        "height": 158
+      },
+      "child[3] section.group": {
+        "top": 514,
+        "left": 274,
+        "width": 892,
+        "height": 391
+      },
+      "child[4] section.group": {
+        "top": 919,
+        "left": 274,
+        "width": 892,
+        "height": 76
+      },
+      "child[5] section.group": {
+        "top": 1009,
+        "left": 274,
+        "width": 892,
+        "height": 198
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "landmark .segmented": {
+        "top": 129,
+        "left": 849,
+        "width": 300,
+        "height": 48
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 1302
+      }
+    },
+    "1440x900::stats": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 2107
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] section.card": {
+        "top": 98,
+        "left": 274,
+        "width": 892,
+        "height": 303
+      },
+      "child[2] section.card": {
+        "top": 419,
+        "left": 274,
+        "width": 892,
+        "height": 441
+      },
+      "child[3] section.card": {
+        "top": 878,
+        "left": 274,
+        "width": 892,
+        "height": 928
+      },
+      "child[4] section.card": {
+        "top": 1824,
+        "left": 274,
+        "width": 892,
+        "height": 187
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 152,
+        "left": 291,
+        "width": 858,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 2107
+      }
+    },
+    "1440x900::transfer": {
+      "main.screen": {
+        "top": 0,
+        "left": 250,
+        "width": 940,
+        "height": 900
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 274,
+        "width": 892,
+        "height": 64
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 98,
+        "left": 274,
+        "width": 892,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 168,
+        "left": 274,
+        "width": 892,
+        "height": 198
+      },
+      "nav": {
+        "top": 836,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "landmark .section-picker": {
+        "top": 185,
+        "left": 291,
+        "width": 407,
+        "height": 52
+      },
+      "landmark .dropzone": {
+        "top": 185,
+        "left": 722,
+        "width": 427,
+        "height": 61
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 900
+      }
+    },
+    "320x568::collection-all": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1506
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 78
+      },
+      "child[1] p.path": {
+        "top": 100,
+        "left": 16,
+        "width": 288,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 135,
+        "left": 16,
+        "width": 288,
+        "height": 1280
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 189,
+        "left": 33,
+        "width": 254,
+        "height": 99
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1506
+      }
+    },
+    "320x568::collection-kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1194
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 57
+      },
+      "child[1] p.path": {
+        "top": 79,
+        "left": 16,
+        "width": 288,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 114,
+        "left": 16,
+        "width": 288,
+        "height": 988
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 168,
+        "left": 33,
+        "width": 254,
+        "height": 99
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1194
+      }
+    },
+    "320x568::collection-kanji-empty": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 568
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 57
+      },
+      "child[1] p.path": {
+        "top": 79,
+        "left": 16,
+        "width": 288,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 114,
+        "left": 16,
+        "width": 288,
+        "height": 336
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 568
+      }
+    },
+    "320x568::collection-lesson": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1128
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 57
+      },
+      "child[1] p.path": {
+        "top": 79,
+        "left": 16,
+        "width": 288,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 114,
+        "left": 16,
+        "width": 288,
+        "height": 922
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 168,
+        "left": 33,
+        "width": 254,
+        "height": 99
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1128
+      }
+    },
+    "320x568::collection-pattern": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 568
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 57
+      },
+      "child[1] p.path": {
+        "top": 79,
+        "left": 16,
+        "width": 288,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 114,
+        "left": 16,
+        "width": 288,
+        "height": 259
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 568
+      }
+    },
+    "320x568::editor": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1473
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 78
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 106,
+        "left": 16,
+        "width": 288,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 174,
+        "left": 16,
+        "width": 288,
+        "height": 1207
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1473
+      }
+    },
+    "320x568::home": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 925
+      },
+      "child[0] section.card": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 234
+      },
+      "child[1] section.card": {
+        "top": 262,
+        "left": 16,
+        "width": 288,
+        "height": 571
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 925
+      }
+    },
+    "320x568::home-resume": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1093
+      },
+      "child[0] section.card": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 234
+      },
+      "child[1] section.card": {
+        "top": 262,
+        "left": 16,
+        "width": 288,
+        "height": 571
+      },
+      "child[2] section.card": {
+        "top": 849,
+        "left": 16,
+        "width": 288,
+        "height": 152
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1093
+      }
+    },
+    "320x568::kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1089
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 78
+      },
+      "child[1] section.card": {
+        "top": 106,
+        "left": 16,
+        "width": 288,
+        "height": 891
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1089
+      }
+    },
+    "320x568::lessons": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 669
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 78
+      },
+      "child[1] section.card": {
+        "top": 106,
+        "left": 16,
+        "width": 288,
+        "height": 471
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 669
+      }
+    },
+    "320x568::patterns": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 4000
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 78
+      },
+      "child[1] section.card": {
+        "top": 106,
+        "left": 16,
+        "width": 288,
+        "height": 3802
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 4000
+      }
+    },
+    "320x568::session-active": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 568
+      },
+      "child[0] header.study-top": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 118
+      },
+      "child[1] p.notice": {
+        "top": 160,
+        "left": 16,
+        "width": 288,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 233,
+        "left": 16,
+        "width": 288,
+        "height": 243
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 233,
+        "left": 16,
+        "width": 288,
+        "height": 243
+      },
+      "landmark .stage": {
+        "top": 233,
+        "left": 16,
+        "width": 288,
+        "height": 181
+      },
+      "landmark .study-controls": {
+        "top": 426,
+        "left": 16,
+        "width": 288,
+        "height": 50
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 568
+      }
+    },
+    "320x568::session-revealed": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 625
+      },
+      "child[0] header.study-top": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 118
+      },
+      "child[1] p.notice": {
+        "top": 160,
+        "left": 16,
+        "width": 288,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 233,
+        "left": 16,
+        "width": 288,
+        "height": 300
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 233,
+        "left": 16,
+        "width": 288,
+        "height": 300
+      },
+      "landmark .stage": {
+        "top": 233,
+        "left": 16,
+        "width": 288,
+        "height": 142
+      },
+      "landmark .study-controls": {
+        "top": 387,
+        "left": 16,
+        "width": 288,
+        "height": 146
+      },
+      "landmark .ratings": {
+        "top": 387,
+        "left": 16,
+        "width": 288,
+        "height": 146
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 625
+      }
+    },
+    "320x568::settings": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1591
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 57
+      },
+      "child[1] section.group": {
+        "top": 83,
+        "left": 16,
+        "width": 288,
+        "height": 378
+      },
+      "child[2] section.group": {
+        "top": 475,
+        "left": 16,
+        "width": 288,
+        "height": 209
+      },
+      "child[3] section.group": {
+        "top": 698,
+        "left": 16,
+        "width": 288,
+        "height": 410
+      },
+      "child[4] section.group": {
+        "top": 1122,
+        "left": 16,
+        "width": 288,
+        "height": 76
+      },
+      "child[5] section.group": {
+        "top": 1211,
+        "left": 16,
+        "width": 288,
+        "height": 288
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "landmark .segmented": {
+        "top": 148,
+        "left": 33,
+        "width": 254,
+        "height": 48
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 1591
+      }
+    },
+    "320x568::stats": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 2366
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 78
+      },
+      "child[1] section.card": {
+        "top": 106,
+        "left": 16,
+        "width": 288,
+        "height": 496
+      },
+      "child[2] section.card": {
+        "top": 618,
+        "left": 16,
+        "width": 288,
+        "height": 508
+      },
+      "child[3] section.card": {
+        "top": 1143,
+        "left": 16,
+        "width": 288,
+        "height": 928
+      },
+      "child[4] section.card": {
+        "top": 2087,
+        "left": 16,
+        "width": 288,
+        "height": 187
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 160,
+        "left": 33,
+        "width": 254,
+        "height": 159
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 2366
+      }
+    },
+    "320x568::transfer": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 602
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 288,
+        "height": 78
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 106,
+        "left": 16,
+        "width": 288,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 174,
+        "left": 16,
+        "width": 288,
+        "height": 336
+      },
+      "nav": {
+        "top": 504,
+        "left": 0,
+        "width": 320,
+        "height": 64
+      },
+      "landmark .section-picker": {
+        "top": 191,
+        "left": 33,
+        "width": 254,
+        "height": 52
+      },
+      "landmark .dropzone": {
+        "top": 389,
+        "left": 33,
+        "width": 254,
+        "height": 61
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 320,
+        "height": 602
+      }
+    },
+    "360x640::collection-all": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 1506
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 78
+      },
+      "child[1] p.path": {
+        "top": 100,
+        "left": 16,
+        "width": 328,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 135,
+        "left": 16,
+        "width": 328,
+        "height": 1280
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 189,
+        "left": 33,
+        "width": 294,
+        "height": 99
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 1506
+      }
+    },
+    "360x640::collection-kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 1194
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 57
+      },
+      "child[1] p.path": {
+        "top": 79,
+        "left": 16,
+        "width": 328,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 114,
+        "left": 16,
+        "width": 328,
+        "height": 988
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 168,
+        "left": 33,
+        "width": 294,
+        "height": 99
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 1194
+      }
+    },
+    "360x640::collection-kanji-empty": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 640
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 57
+      },
+      "child[1] p.path": {
+        "top": 79,
+        "left": 16,
+        "width": 328,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 114,
+        "left": 16,
+        "width": 328,
+        "height": 295
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 640
+      }
+    },
+    "360x640::collection-lesson": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 1128
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 57
+      },
+      "child[1] p.path": {
+        "top": 79,
+        "left": 16,
+        "width": 328,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 114,
+        "left": 16,
+        "width": 328,
+        "height": 922
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 168,
+        "left": 33,
+        "width": 294,
+        "height": 99
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 1128
+      }
+    },
+    "360x640::collection-pattern": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 640
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 57
+      },
+      "child[1] p.path": {
+        "top": 79,
+        "left": 16,
+        "width": 328,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 114,
+        "left": 16,
+        "width": 328,
+        "height": 259
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 640
+      }
+    },
+    "360x640::editor": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 1473
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 78
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 106,
+        "left": 16,
+        "width": 328,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 174,
+        "left": 16,
+        "width": 328,
+        "height": 1207
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 1473
+      }
+    },
+    "360x640::home": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 867
+      },
+      "child[0] section.card": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 234
+      },
+      "child[1] section.card": {
+        "top": 262,
+        "left": 16,
+        "width": 328,
+        "height": 513
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 867
+      }
+    },
+    "360x640::home-resume": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 1035
+      },
+      "child[0] section.card": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 234
+      },
+      "child[1] section.card": {
+        "top": 262,
+        "left": 16,
+        "width": 328,
+        "height": 513
+      },
+      "child[2] section.card": {
+        "top": 791,
+        "left": 16,
+        "width": 328,
+        "height": 152
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 1035
+      }
+    },
+    "360x640::kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 942
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 78
+      },
+      "child[1] section.card": {
+        "top": 106,
+        "left": 16,
+        "width": 328,
+        "height": 744
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 942
+      }
+    },
+    "360x640::lessons": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 669
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 78
+      },
+      "child[1] section.card": {
+        "top": 106,
+        "left": 16,
+        "width": 328,
+        "height": 471
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 669
+      }
+    },
+    "360x640::patterns": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 4000
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 78
+      },
+      "child[1] section.card": {
+        "top": 106,
+        "left": 16,
+        "width": 328,
+        "height": 3802
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 4000
+      }
+    },
+    "360x640::session-active": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 640
+      },
+      "child[0] header.study-top": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 118
+      },
+      "child[1] p.notice": {
+        "top": 160,
+        "left": 16,
+        "width": 328,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 233,
+        "left": 16,
+        "width": 328,
+        "height": 315
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 233,
+        "left": 16,
+        "width": 328,
+        "height": 315
+      },
+      "landmark .stage": {
+        "top": 233,
+        "left": 16,
+        "width": 328,
+        "height": 253
+      },
+      "landmark .study-controls": {
+        "top": 498,
+        "left": 16,
+        "width": 328,
+        "height": 50
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 640
+      }
+    },
+    "360x640::session-revealed": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 643
+      },
+      "child[0] header.study-top": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 118
+      },
+      "child[1] p.notice": {
+        "top": 160,
+        "left": 16,
+        "width": 328,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 233,
+        "left": 16,
+        "width": 328,
+        "height": 318
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 233,
+        "left": 16,
+        "width": 328,
+        "height": 318
+      },
+      "landmark .stage": {
+        "top": 233,
+        "left": 16,
+        "width": 328,
+        "height": 160
+      },
+      "landmark .study-controls": {
+        "top": 405,
+        "left": 16,
+        "width": 328,
+        "height": 146
+      },
+      "landmark .ratings": {
+        "top": 405,
+        "left": 16,
+        "width": 328,
+        "height": 146
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 643
+      }
+    },
+    "360x640::settings": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 1555
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 57
+      },
+      "child[1] section.group": {
+        "top": 83,
+        "left": 16,
+        "width": 328,
+        "height": 378
+      },
+      "child[2] section.group": {
+        "top": 475,
+        "left": 16,
+        "width": 328,
+        "height": 209
+      },
+      "child[3] section.group": {
+        "top": 698,
+        "left": 16,
+        "width": 328,
+        "height": 410
+      },
+      "child[4] section.group": {
+        "top": 1122,
+        "left": 16,
+        "width": 328,
+        "height": 76
+      },
+      "child[5] section.group": {
+        "top": 1211,
+        "left": 16,
+        "width": 328,
+        "height": 252
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "landmark .segmented": {
+        "top": 148,
+        "left": 33,
+        "width": 294,
+        "height": 48
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 1555
+      }
+    },
+    "360x640::stats": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 2317
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 78
+      },
+      "child[1] section.card": {
+        "top": 106,
+        "left": 16,
+        "width": 328,
+        "height": 496
+      },
+      "child[2] section.card": {
+        "top": 618,
+        "left": 16,
+        "width": 328,
+        "height": 460
+      },
+      "child[3] section.card": {
+        "top": 1094,
+        "left": 16,
+        "width": 328,
+        "height": 928
+      },
+      "child[4] section.card": {
+        "top": 2038,
+        "left": 16,
+        "width": 328,
+        "height": 187
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 160,
+        "left": 33,
+        "width": 294,
+        "height": 159
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 2317
+      }
+    },
+    "360x640::transfer": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 640
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 328,
+        "height": 78
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 106,
+        "left": 16,
+        "width": 328,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 174,
+        "left": 16,
+        "width": 328,
+        "height": 336
+      },
+      "nav": {
+        "top": 576,
+        "left": 0,
+        "width": 360,
+        "height": 64
+      },
+      "landmark .section-picker": {
+        "top": 191,
+        "left": 33,
+        "width": 294,
+        "height": 52
+      },
+      "landmark .dropzone": {
+        "top": 389,
+        "left": 33,
+        "width": 294,
+        "height": 61
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 360,
+        "height": 640
+      }
+    },
+    "390x844::collection-all": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 1488
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 78
+      },
+      "child[1] p.path": {
+        "top": 100,
+        "left": 16,
+        "width": 358,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 135,
+        "left": 16,
+        "width": 358,
+        "height": 1261
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 189,
+        "left": 33,
+        "width": 324,
+        "height": 99
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 1488
+      }
+    },
+    "390x844::collection-kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 1175
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 57
+      },
+      "child[1] p.path": {
+        "top": 79,
+        "left": 16,
+        "width": 358,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 114,
+        "left": 16,
+        "width": 358,
+        "height": 969
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 168,
+        "left": 33,
+        "width": 324,
+        "height": 99
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 1175
+      }
+    },
+    "390x844::collection-kanji-empty": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 57
+      },
+      "child[1] p.path": {
+        "top": 79,
+        "left": 16,
+        "width": 358,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 114,
+        "left": 16,
+        "width": 358,
+        "height": 295
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      }
+    },
+    "390x844::collection-lesson": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 1109
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 57
+      },
+      "child[1] p.path": {
+        "top": 79,
+        "left": 16,
+        "width": 358,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 114,
+        "left": 16,
+        "width": 358,
+        "height": 903
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 168,
+        "left": 33,
+        "width": 324,
+        "height": 99
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 1109
+      }
+    },
+    "390x844::collection-pattern": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 57
+      },
+      "child[1] p.path": {
+        "top": 79,
+        "left": 16,
+        "width": 358,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 114,
+        "left": 16,
+        "width": 358,
+        "height": 259
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      }
+    },
+    "390x844::editor": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 1473
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 78
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 106,
+        "left": 16,
+        "width": 358,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 174,
+        "left": 16,
+        "width": 358,
+        "height": 1207
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 1473
+      }
+    },
+    "390x844::home": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      },
+      "child[0] section.card": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 234
+      },
+      "child[1] section.card": {
+        "top": 262,
+        "left": 16,
+        "width": 358,
+        "height": 458
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      }
+    },
+    "390x844::home-resume": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 980
+      },
+      "child[0] section.card": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 234
+      },
+      "child[1] section.card": {
+        "top": 262,
+        "left": 16,
+        "width": 358,
+        "height": 458
+      },
+      "child[2] section.card": {
+        "top": 736,
+        "left": 16,
+        "width": 358,
+        "height": 152
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 980
+      }
+    },
+    "390x844::kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 905
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 78
+      },
+      "child[1] section.card": {
+        "top": 106,
+        "left": 16,
+        "width": 358,
+        "height": 706
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 905
+      }
+    },
+    "390x844::lessons": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 78
+      },
+      "child[1] section.card": {
+        "top": 106,
+        "left": 16,
+        "width": 358,
+        "height": 400
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      }
+    },
+    "390x844::patterns": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 2756
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 78
+      },
+      "child[1] section.card": {
+        "top": 106,
+        "left": 16,
+        "width": 358,
+        "height": 2558
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 2756
+      }
+    },
+    "390x844::session-active": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      },
+      "child[0] header.study-top": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 100
+      },
+      "child[1] p.notice": {
+        "top": 142,
+        "left": 16,
+        "width": 358,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 215,
+        "left": 16,
+        "width": 358,
+        "height": 537
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 215,
+        "left": 16,
+        "width": 358,
+        "height": 537
+      },
+      "landmark .stage": {
+        "top": 215,
+        "left": 16,
+        "width": 358,
+        "height": 475
+      },
+      "landmark .study-controls": {
+        "top": 702,
+        "left": 16,
+        "width": 358,
+        "height": 50
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      }
+    },
+    "390x844::session-revealed": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      },
+      "child[0] header.study-top": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 100
+      },
+      "child[1] p.notice": {
+        "top": 142,
+        "left": 16,
+        "width": 358,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 215,
+        "left": 16,
+        "width": 358,
+        "height": 537
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 215,
+        "left": 16,
+        "width": 358,
+        "height": 537
+      },
+      "landmark .stage": {
+        "top": 215,
+        "left": 16,
+        "width": 358,
+        "height": 379
+      },
+      "landmark .study-controls": {
+        "top": 606,
+        "left": 16,
+        "width": 358,
+        "height": 146
+      },
+      "landmark .ratings": {
+        "top": 606,
+        "left": 16,
+        "width": 358,
+        "height": 146
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      }
+    },
+    "390x844::settings": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 1480
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 57
+      },
+      "child[1] section.group": {
+        "top": 83,
+        "left": 16,
+        "width": 358,
+        "height": 339
+      },
+      "child[2] section.group": {
+        "top": 436,
+        "left": 16,
+        "width": 358,
+        "height": 209
+      },
+      "child[3] section.group": {
+        "top": 659,
+        "left": 16,
+        "width": 358,
+        "height": 391
+      },
+      "child[4] section.group": {
+        "top": 1065,
+        "left": 16,
+        "width": 358,
+        "height": 76
+      },
+      "child[5] section.group": {
+        "top": 1154,
+        "left": 16,
+        "width": 358,
+        "height": 234
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "landmark .segmented": {
+        "top": 148,
+        "left": 33,
+        "width": 324,
+        "height": 48
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 1480
+      }
+    },
+    "390x844::stats": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 2318
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 78
+      },
+      "child[1] section.card": {
+        "top": 106,
+        "left": 16,
+        "width": 358,
+        "height": 496
+      },
+      "child[2] section.card": {
+        "top": 619,
+        "left": 16,
+        "width": 358,
+        "height": 460
+      },
+      "child[3] section.card": {
+        "top": 1095,
+        "left": 16,
+        "width": 358,
+        "height": 928
+      },
+      "child[4] section.card": {
+        "top": 2039,
+        "left": 16,
+        "width": 358,
+        "height": 187
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 161,
+        "left": 33,
+        "width": 324,
+        "height": 159
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 2318
+      }
+    },
+    "390x844::transfer": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 358,
+        "height": 78
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 106,
+        "left": 16,
+        "width": 358,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 174,
+        "left": 16,
+        "width": 358,
+        "height": 336
+      },
+      "nav": {
+        "top": 780,
+        "left": 0,
+        "width": 390,
+        "height": 64
+      },
+      "landmark .section-picker": {
+        "top": 191,
+        "left": 33,
+        "width": 324,
+        "height": 52
+      },
+      "landmark .dropzone": {
+        "top": 389,
+        "left": 33,
+        "width": 324,
+        "height": 61
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 390,
+        "height": 844
+      }
+    },
+    "414x896::collection-all": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 1488
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 79
+      },
+      "child[1] p.path": {
+        "top": 101,
+        "left": 16,
+        "width": 382,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 135,
+        "left": 16,
+        "width": 382,
+        "height": 1261
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 190,
+        "left": 33,
+        "width": 348,
+        "height": 99
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 1488
+      }
+    },
+    "414x896::collection-kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 1176
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 58
+      },
+      "child[1] p.path": {
+        "top": 80,
+        "left": 16,
+        "width": 382,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 114,
+        "left": 16,
+        "width": 382,
+        "height": 969
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 169,
+        "left": 33,
+        "width": 348,
+        "height": 99
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 1176
+      }
+    },
+    "414x896::collection-kanji-empty": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 58
+      },
+      "child[1] p.path": {
+        "top": 80,
+        "left": 16,
+        "width": 382,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 114,
+        "left": 16,
+        "width": 382,
+        "height": 295
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      }
+    },
+    "414x896::collection-lesson": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 1110
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 58
+      },
+      "child[1] p.path": {
+        "top": 80,
+        "left": 16,
+        "width": 382,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 114,
+        "left": 16,
+        "width": 382,
+        "height": 903
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 169,
+        "left": 33,
+        "width": 348,
+        "height": 99
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 1110
+      }
+    },
+    "414x896::collection-pattern": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 58
+      },
+      "child[1] p.path": {
+        "top": 80,
+        "left": 16,
+        "width": 382,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 114,
+        "left": 16,
+        "width": 382,
+        "height": 259
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      }
+    },
+    "414x896::editor": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 1473
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 79
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 107,
+        "left": 16,
+        "width": 382,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 175,
+        "left": 16,
+        "width": 382,
+        "height": 1207
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 1473
+      }
+    },
+    "414x896::home": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      },
+      "child[0] section.card": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 234
+      },
+      "child[1] section.card": {
+        "top": 262,
+        "left": 16,
+        "width": 382,
+        "height": 458
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      }
+    },
+    "414x896::home-resume": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 980
+      },
+      "child[0] section.card": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 234
+      },
+      "child[1] section.card": {
+        "top": 262,
+        "left": 16,
+        "width": 382,
+        "height": 458
+      },
+      "child[2] section.card": {
+        "top": 736,
+        "left": 16,
+        "width": 382,
+        "height": 152
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 980
+      }
+    },
+    "414x896::kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 906
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 79
+      },
+      "child[1] section.card": {
+        "top": 107,
+        "left": 16,
+        "width": 382,
+        "height": 707
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 906
+      }
+    },
+    "414x896::lessons": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 58
+      },
+      "child[1] section.card": {
+        "top": 86,
+        "left": 16,
+        "width": 382,
+        "height": 400
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      }
+    },
+    "414x896::patterns": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 2756
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 79
+      },
+      "child[1] section.card": {
+        "top": 107,
+        "left": 16,
+        "width": 382,
+        "height": 2558
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 2756
+      }
+    },
+    "414x896::session-active": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      },
+      "child[0] header.study-top": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 100
+      },
+      "child[1] p.notice": {
+        "top": 142,
+        "left": 16,
+        "width": 382,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 215,
+        "left": 16,
+        "width": 382,
+        "height": 589
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 215,
+        "left": 16,
+        "width": 382,
+        "height": 589
+      },
+      "landmark .stage": {
+        "top": 215,
+        "left": 16,
+        "width": 382,
+        "height": 527
+      },
+      "landmark .study-controls": {
+        "top": 754,
+        "left": 16,
+        "width": 382,
+        "height": 50
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      }
+    },
+    "414x896::session-revealed": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      },
+      "child[0] header.study-top": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 100
+      },
+      "child[1] p.notice": {
+        "top": 142,
+        "left": 16,
+        "width": 382,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 215,
+        "left": 16,
+        "width": 382,
+        "height": 589
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 215,
+        "left": 16,
+        "width": 382,
+        "height": 589
+      },
+      "landmark .stage": {
+        "top": 215,
+        "left": 16,
+        "width": 382,
+        "height": 431
+      },
+      "landmark .study-controls": {
+        "top": 658,
+        "left": 16,
+        "width": 382,
+        "height": 146
+      },
+      "landmark .ratings": {
+        "top": 658,
+        "left": 16,
+        "width": 382,
+        "height": 146
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      }
+    },
+    "414x896::settings": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 1480
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 58
+      },
+      "child[1] section.group": {
+        "top": 84,
+        "left": 16,
+        "width": 382,
+        "height": 339
+      },
+      "child[2] section.group": {
+        "top": 437,
+        "left": 16,
+        "width": 382,
+        "height": 209
+      },
+      "child[3] section.group": {
+        "top": 660,
+        "left": 16,
+        "width": 382,
+        "height": 391
+      },
+      "child[4] section.group": {
+        "top": 1065,
+        "left": 16,
+        "width": 382,
+        "height": 76
+      },
+      "child[5] section.group": {
+        "top": 1155,
+        "left": 16,
+        "width": 382,
+        "height": 234
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "landmark .segmented": {
+        "top": 148,
+        "left": 33,
+        "width": 348,
+        "height": 48
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 1480
+      }
+    },
+    "414x896::stats": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 2318
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 79
+      },
+      "child[1] section.card": {
+        "top": 107,
+        "left": 16,
+        "width": 382,
+        "height": 496
+      },
+      "child[2] section.card": {
+        "top": 619,
+        "left": 16,
+        "width": 382,
+        "height": 460
+      },
+      "child[3] section.card": {
+        "top": 1095,
+        "left": 16,
+        "width": 382,
+        "height": 928
+      },
+      "child[4] section.card": {
+        "top": 2039,
+        "left": 16,
+        "width": 382,
+        "height": 187
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 161,
+        "left": 33,
+        "width": 348,
+        "height": 159
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 2318
+      }
+    },
+    "414x896::transfer": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 16,
+        "width": 382,
+        "height": 79
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 107,
+        "left": 16,
+        "width": 382,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 175,
+        "left": 16,
+        "width": 382,
+        "height": 318
+      },
+      "nav": {
+        "top": 832,
+        "left": 0,
+        "width": 414,
+        "height": 64
+      },
+      "landmark .section-picker": {
+        "top": 192,
+        "left": 33,
+        "width": 348,
+        "height": 52
+      },
+      "landmark .dropzone": {
+        "top": 371,
+        "left": 33,
+        "width": 348,
+        "height": 61
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 414,
+        "height": 896
+      }
+    },
+    "667x375::collection-all": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 1447
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 61
+      },
+      "child[1] p.path": {
+        "top": 83,
+        "left": 30,
+        "width": 608,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 118,
+        "left": 30,
+        "width": 608,
+        "height": 1237
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 172,
+        "left": 47,
+        "width": 574,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 1447
+      }
+    },
+    "667x375::collection-kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 1155
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 61
+      },
+      "child[1] p.path": {
+        "top": 83,
+        "left": 30,
+        "width": 608,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 118,
+        "left": 30,
+        "width": 608,
+        "height": 945
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 172,
+        "left": 47,
+        "width": 574,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 1155
+      }
+    },
+    "667x375::collection-kanji-empty": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 484
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 61
+      },
+      "child[1] p.path": {
+        "top": 83,
+        "left": 30,
+        "width": 608,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 118,
+        "left": 30,
+        "width": 608,
+        "height": 274
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 484
+      }
+    },
+    "667x375::collection-lesson": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 1089
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 61
+      },
+      "child[1] p.path": {
+        "top": 83,
+        "left": 30,
+        "width": 608,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 118,
+        "left": 30,
+        "width": 608,
+        "height": 879
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 172,
+        "left": 47,
+        "width": 574,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 1089
+      }
+    },
+    "667x375::collection-pattern": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 469
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 61
+      },
+      "child[1] p.path": {
+        "top": 83,
+        "left": 30,
+        "width": 608,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 118,
+        "left": 30,
+        "width": 608,
+        "height": 259
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 469
+      }
+    },
+    "667x375::editor": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 1373
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 61
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 89,
+        "left": 30,
+        "width": 608,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 157,
+        "left": 30,
+        "width": 608,
+        "height": 1124
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 1373
+      }
+    },
+    "667x375::home": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 778
+      },
+      "child[0] section.card": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 214
+      },
+      "child[1] section.card": {
+        "top": 242,
+        "left": 30,
+        "width": 608,
+        "height": 444
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 778
+      }
+    },
+    "667x375::home-resume": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 912
+      },
+      "child[0] section.card": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 214
+      },
+      "child[1] section.card": {
+        "top": 242,
+        "left": 30,
+        "width": 608,
+        "height": 444
+      },
+      "child[2] section.card": {
+        "top": 702,
+        "left": 30,
+        "width": 608,
+        "height": 118
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 912
+      }
+    },
+    "667x375::kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 846
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 61
+      },
+      "child[1] section.card": {
+        "top": 89,
+        "left": 30,
+        "width": 608,
+        "height": 665
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 846
+      }
+    },
+    "667x375::lessons": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 510
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 61
+      },
+      "child[1] section.card": {
+        "top": 89,
+        "left": 30,
+        "width": 608,
+        "height": 329
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 510
+      }
+    },
+    "667x375::patterns": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 2003
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 61
+      },
+      "child[1] section.card": {
+        "top": 89,
+        "left": 30,
+        "width": 608,
+        "height": 1822
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 2003
+      }
+    },
+    "667x375::session-active": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 404
+      },
+      "child[0] header.study-top": {
+        "top": 10,
+        "left": 30,
+        "width": 608,
+        "height": 85
+      },
+      "child[1] p.notice": {
+        "top": 120,
+        "left": 30,
+        "width": 608,
+        "height": 33
+      },
+      "child[2] div.study-body": {
+        "top": 178,
+        "left": 30,
+        "width": 608,
+        "height": 150
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 178,
+        "left": 30,
+        "width": 608,
+        "height": 150
+      },
+      "landmark .stage": {
+        "top": 178,
+        "left": 30,
+        "width": 327,
+        "height": 150
+      },
+      "landmark .study-controls": {
+        "top": 178,
+        "left": 370,
+        "width": 267,
+        "height": 150
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 404
+      }
+    },
+    "667x375::session-revealed": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 404
+      },
+      "child[0] header.study-top": {
+        "top": 10,
+        "left": 30,
+        "width": 608,
+        "height": 85
+      },
+      "child[1] p.notice": {
+        "top": 120,
+        "left": 30,
+        "width": 608,
+        "height": 33
+      },
+      "child[2] div.study-body": {
+        "top": 178,
+        "left": 30,
+        "width": 608,
+        "height": 150
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 178,
+        "left": 30,
+        "width": 608,
+        "height": 150
+      },
+      "landmark .stage": {
+        "top": 178,
+        "left": 30,
+        "width": 327,
+        "height": 150
+      },
+      "landmark .study-controls": {
+        "top": 178,
+        "left": 370,
+        "width": 267,
+        "height": 150
+      },
+      "landmark .ratings": {
+        "top": 180,
+        "left": 370,
+        "width": 267,
+        "height": 146
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 404
+      }
+    },
+    "667x375::settings": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 1379
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 61
+      },
+      "child[1] section.group": {
+        "top": 87,
+        "left": 30,
+        "width": 608,
+        "height": 321
+      },
+      "child[2] section.group": {
+        "top": 422,
+        "left": 30,
+        "width": 608,
+        "height": 158
+      },
+      "child[3] section.group": {
+        "top": 594,
+        "left": 30,
+        "width": 608,
+        "height": 391
+      },
+      "child[4] section.group": {
+        "top": 1000,
+        "left": 30,
+        "width": 608,
+        "height": 76
+      },
+      "child[5] section.group": {
+        "top": 1089,
+        "left": 30,
+        "width": 608,
+        "height": 198
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "landmark .segmented": {
+        "top": 152,
+        "left": 47,
+        "width": 574,
+        "height": 48
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 1379
+      }
+    },
+    "667x375::stats": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 2105
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 61
+      },
+      "child[1] section.card": {
+        "top": 89,
+        "left": 30,
+        "width": 608,
+        "height": 321
+      },
+      "child[2] section.card": {
+        "top": 426,
+        "left": 30,
+        "width": 608,
+        "height": 441
+      },
+      "child[3] section.card": {
+        "top": 882,
+        "left": 30,
+        "width": 608,
+        "height": 928
+      },
+      "child[4] section.card": {
+        "top": 1827,
+        "left": 30,
+        "width": 608,
+        "height": 187
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 143,
+        "left": 47,
+        "width": 574,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 2105
+      }
+    },
+    "667x375::transfer": {
+      "main.screen": {
+        "top": 0,
+        "left": 14,
+        "width": 640,
+        "height": 568
+      },
+      "child[0] header.page-header": {
+        "top": 12,
+        "left": 30,
+        "width": 608,
+        "height": 61
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 89,
+        "left": 30,
+        "width": 608,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 157,
+        "left": 30,
+        "width": 608,
+        "height": 319
+      },
+      "nav": {
+        "top": 311,
+        "left": 0,
+        "width": 667,
+        "height": 64
+      },
+      "landmark .section-picker": {
+        "top": 174,
+        "left": 47,
+        "width": 574,
+        "height": 52
+      },
+      "landmark .dropzone": {
+        "top": 355,
+        "left": 47,
+        "width": 574,
+        "height": 61
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 667,
+        "height": 568
+      }
+    },
+    "768x1024::collection-all": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1460
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 63
+      },
+      "child[1] p.path": {
+        "top": 91,
+        "left": 24,
+        "width": 720,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 127,
+        "left": 24,
+        "width": 720,
+        "height": 1237
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 182,
+        "left": 41,
+        "width": 686,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1460
+      }
+    },
+    "768x1024::collection-kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1169
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 63
+      },
+      "child[1] p.path": {
+        "top": 91,
+        "left": 24,
+        "width": 720,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 127,
+        "left": 24,
+        "width": 720,
+        "height": 945
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 182,
+        "left": 41,
+        "width": 686,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1169
+      }
+    },
+    "768x1024::collection-kanji-empty": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 63
+      },
+      "child[1] p.path": {
+        "top": 91,
+        "left": 24,
+        "width": 720,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 127,
+        "left": 24,
+        "width": 720,
+        "height": 274
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      }
+    },
+    "768x1024::collection-lesson": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1103
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 63
+      },
+      "child[1] p.path": {
+        "top": 91,
+        "left": 24,
+        "width": 720,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 127,
+        "left": 24,
+        "width": 720,
+        "height": 879
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 182,
+        "left": 41,
+        "width": 686,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1103
+      }
+    },
+    "768x1024::collection-pattern": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 63
+      },
+      "child[1] p.path": {
+        "top": 91,
+        "left": 24,
+        "width": 720,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 127,
+        "left": 24,
+        "width": 720,
+        "height": 259
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      }
+    },
+    "768x1024::editor": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1386
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 63
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 97,
+        "left": 24,
+        "width": 720,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 167,
+        "left": 24,
+        "width": 720,
+        "height": 1124
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1386
+      }
+    },
+    "768x1024::home": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      },
+      "child[0] section.card": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 214
+      },
+      "child[1] section.card": {
+        "top": 248,
+        "left": 24,
+        "width": 720,
+        "height": 444
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      }
+    },
+    "768x1024::home-resume": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      },
+      "child[0] section.card": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 214
+      },
+      "child[1] section.card": {
+        "top": 248,
+        "left": 24,
+        "width": 720,
+        "height": 444
+      },
+      "child[2] section.card": {
+        "top": 710,
+        "left": 24,
+        "width": 720,
+        "height": 84
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      }
+    },
+    "768x1024::kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 63
+      },
+      "child[1] section.card": {
+        "top": 97,
+        "left": 24,
+        "width": 720,
+        "height": 667
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      }
+    },
+    "768x1024::lessons": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 63
+      },
+      "child[1] section.card": {
+        "top": 97,
+        "left": 24,
+        "width": 720,
+        "height": 329
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      }
+    },
+    "768x1024::patterns": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1646
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 63
+      },
+      "child[1] section.card": {
+        "top": 97,
+        "left": 24,
+        "width": 720,
+        "height": 1454
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1646
+      }
+    },
+    "768x1024::session-active": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      },
+      "child[0] header.study-top": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 100
+      },
+      "child[1] p.notice": {
+        "top": 148,
+        "left": 24,
+        "width": 720,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 223,
+        "left": 24,
+        "width": 720,
+        "height": 705
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 223,
+        "left": 24,
+        "width": 720,
+        "height": 705
+      },
+      "landmark .stage": {
+        "top": 223,
+        "left": 24,
+        "width": 720,
+        "height": 643
+      },
+      "landmark .study-controls": {
+        "top": 878,
+        "left": 24,
+        "width": 720,
+        "height": 50
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      }
+    },
+    "768x1024::session-revealed": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      },
+      "child[0] header.study-top": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 100
+      },
+      "child[1] p.notice": {
+        "top": 148,
+        "left": 24,
+        "width": 720,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 223,
+        "left": 24,
+        "width": 720,
+        "height": 705
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 223,
+        "left": 24,
+        "width": 720,
+        "height": 705
+      },
+      "landmark .stage": {
+        "top": 223,
+        "left": 24,
+        "width": 720,
+        "height": 547
+      },
+      "landmark .study-controls": {
+        "top": 782,
+        "left": 24,
+        "width": 720,
+        "height": 146
+      },
+      "landmark .ratings": {
+        "top": 782,
+        "left": 24,
+        "width": 720,
+        "height": 146
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      }
+    },
+    "768x1024::settings": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1301
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 63
+      },
+      "child[1] section.group": {
+        "top": 93,
+        "left": 24,
+        "width": 720,
+        "height": 234
+      },
+      "child[2] section.group": {
+        "top": 340,
+        "left": 24,
+        "width": 720,
+        "height": 158
+      },
+      "child[3] section.group": {
+        "top": 512,
+        "left": 24,
+        "width": 720,
+        "height": 391
+      },
+      "child[4] section.group": {
+        "top": 918,
+        "left": 24,
+        "width": 720,
+        "height": 76
+      },
+      "child[5] section.group": {
+        "top": 1007,
+        "left": 24,
+        "width": 720,
+        "height": 198
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "landmark .segmented": {
+        "top": 127,
+        "left": 427,
+        "width": 300,
+        "height": 48
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1301
+      }
+    },
+    "768x1024::stats": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 2123
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 63
+      },
+      "child[1] section.card": {
+        "top": 97,
+        "left": 24,
+        "width": 720,
+        "height": 321
+      },
+      "child[2] section.card": {
+        "top": 435,
+        "left": 24,
+        "width": 720,
+        "height": 441
+      },
+      "child[3] section.card": {
+        "top": 894,
+        "left": 24,
+        "width": 720,
+        "height": 928
+      },
+      "child[4] section.card": {
+        "top": 1840,
+        "left": 24,
+        "width": 720,
+        "height": 187
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 151,
+        "left": 41,
+        "width": 686,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 2123
+      }
+    },
+    "768x1024::transfer": {
+      "main.screen": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 24,
+        "width": 720,
+        "height": 63
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 97,
+        "left": 24,
+        "width": 720,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 167,
+        "left": 24,
+        "width": 720,
+        "height": 319
+      },
+      "nav": {
+        "top": 960,
+        "left": 0,
+        "width": 768,
+        "height": 64
+      },
+      "landmark .section-picker": {
+        "top": 184,
+        "left": 41,
+        "width": 686,
+        "height": 52
+      },
+      "landmark .dropzone": {
+        "top": 364,
+        "left": 41,
+        "width": 686,
+        "height": 61
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 768,
+        "height": 1024
+      }
+    },
+    "820x1180::collection-all": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1461
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 63
+      },
+      "child[1] p.path": {
+        "top": 91,
+        "left": 44,
+        "width": 732,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 128,
+        "left": 44,
+        "width": 732,
+        "height": 1237
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 182,
+        "left": 61,
+        "width": 698,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1461
+      }
+    },
+    "820x1180::collection-kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1180
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 63
+      },
+      "child[1] p.path": {
+        "top": 91,
+        "left": 44,
+        "width": 732,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 128,
+        "left": 44,
+        "width": 732,
+        "height": 945
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 182,
+        "left": 61,
+        "width": 698,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1180
+      }
+    },
+    "820x1180::collection-kanji-empty": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1180
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 63
+      },
+      "child[1] p.path": {
+        "top": 91,
+        "left": 44,
+        "width": 732,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 128,
+        "left": 44,
+        "width": 732,
+        "height": 274
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1180
+      }
+    },
+    "820x1180::collection-lesson": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1180
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 63
+      },
+      "child[1] p.path": {
+        "top": 91,
+        "left": 44,
+        "width": 732,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 128,
+        "left": 44,
+        "width": 732,
+        "height": 879
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 182,
+        "left": 61,
+        "width": 698,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1180
+      }
+    },
+    "820x1180::collection-pattern": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1180
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 63
+      },
+      "child[1] p.path": {
+        "top": 91,
+        "left": 44,
+        "width": 732,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 128,
+        "left": 44,
+        "width": 732,
+        "height": 259
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1180
+      }
+    },
+    "820x1180::editor": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1387
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 63
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 97,
+        "left": 44,
+        "width": 732,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 167,
+        "left": 44,
+        "width": 732,
+        "height": 1124
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1387
+      }
+    },
+    "820x1180::home": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1180
+      },
+      "child[0] section.card": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 214
+      },
+      "child[1] section.card": {
+        "top": 248,
+        "left": 44,
+        "width": 732,
+        "height": 444
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1180
+      }
+    },
+    "820x1180::home-resume": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1180
+      },
+      "child[0] section.card": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 214
+      },
+      "child[1] section.card": {
+        "top": 248,
+        "left": 44,
+        "width": 732,
+        "height": 444
+      },
+      "child[2] section.card": {
+        "top": 710,
+        "left": 44,
+        "width": 732,
+        "height": 84
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1180
+      }
+    },
+    "820x1180::kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1180
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 63
+      },
+      "child[1] section.card": {
+        "top": 97,
+        "left": 44,
+        "width": 732,
+        "height": 667
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1180
+      }
+    },
+    "820x1180::lessons": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1180
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 63
+      },
+      "child[1] section.card": {
+        "top": 97,
+        "left": 44,
+        "width": 732,
+        "height": 329
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1180
+      }
+    },
+    "820x1180::patterns": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1647
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 63
+      },
+      "child[1] section.card": {
+        "top": 97,
+        "left": 44,
+        "width": 732,
+        "height": 1454
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1647
+      }
+    },
+    "820x1180::session-active": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1180
+      },
+      "child[0] header.study-top": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 100
+      },
+      "child[1] p.notice": {
+        "top": 148,
+        "left": 44,
+        "width": 732,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 223,
+        "left": 44,
+        "width": 732,
+        "height": 861
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 223,
+        "left": 44,
+        "width": 732,
+        "height": 861
+      },
+      "landmark .stage": {
+        "top": 223,
+        "left": 44,
+        "width": 732,
+        "height": 799
+      },
+      "landmark .study-controls": {
+        "top": 1034,
+        "left": 44,
+        "width": 732,
+        "height": 50
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1180
+      }
+    },
+    "820x1180::session-revealed": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1180
+      },
+      "child[0] header.study-top": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 100
+      },
+      "child[1] p.notice": {
+        "top": 148,
+        "left": 44,
+        "width": 732,
+        "height": 43
+      },
+      "child[2] div.study-body": {
+        "top": 223,
+        "left": 44,
+        "width": 732,
+        "height": 861
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 223,
+        "left": 44,
+        "width": 732,
+        "height": 861
+      },
+      "landmark .stage": {
+        "top": 223,
+        "left": 44,
+        "width": 732,
+        "height": 703
+      },
+      "landmark .study-controls": {
+        "top": 938,
+        "left": 44,
+        "width": 732,
+        "height": 146
+      },
+      "landmark .ratings": {
+        "top": 938,
+        "left": 44,
+        "width": 732,
+        "height": 146
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1180
+      }
+    },
+    "820x1180::settings": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1302
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 63
+      },
+      "child[1] section.group": {
+        "top": 93,
+        "left": 44,
+        "width": 732,
+        "height": 234
+      },
+      "child[2] section.group": {
+        "top": 341,
+        "left": 44,
+        "width": 732,
+        "height": 158
+      },
+      "child[3] section.group": {
+        "top": 513,
+        "left": 44,
+        "width": 732,
+        "height": 391
+      },
+      "child[4] section.group": {
+        "top": 919,
+        "left": 44,
+        "width": 732,
+        "height": 76
+      },
+      "child[5] section.group": {
+        "top": 1008,
+        "left": 44,
+        "width": 732,
+        "height": 198
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "landmark .segmented": {
+        "top": 128,
+        "left": 459,
+        "width": 300,
+        "height": 48
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1302
+      }
+    },
+    "820x1180::stats": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 2124
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 63
+      },
+      "child[1] section.card": {
+        "top": 97,
+        "left": 44,
+        "width": 732,
+        "height": 321
+      },
+      "child[2] section.card": {
+        "top": 436,
+        "left": 44,
+        "width": 732,
+        "height": 441
+      },
+      "child[3] section.card": {
+        "top": 895,
+        "left": 44,
+        "width": 732,
+        "height": 928
+      },
+      "child[4] section.card": {
+        "top": 1841,
+        "left": 44,
+        "width": 732,
+        "height": 187
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 152,
+        "left": 61,
+        "width": 698,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 2124
+      }
+    },
+    "820x1180::transfer": {
+      "main.screen": {
+        "top": 0,
+        "left": 20,
+        "width": 780,
+        "height": 1180
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 44,
+        "width": 732,
+        "height": 63
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 97,
+        "left": 44,
+        "width": 732,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 167,
+        "left": 44,
+        "width": 732,
+        "height": 319
+      },
+      "nav": {
+        "top": 1116,
+        "left": 0,
+        "width": 820,
+        "height": 64
+      },
+      "landmark .section-picker": {
+        "top": 184,
+        "left": 61,
+        "width": 698,
+        "height": 52
+      },
+      "landmark .dropzone": {
+        "top": 365,
+        "left": 61,
+        "width": 698,
+        "height": 61
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 820,
+        "height": 1180
+      }
+    },
+    "844x390::collection-all": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 1461
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 56,
+        "width": 732,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 128,
+        "left": 56,
+        "width": 732,
+        "height": 1237
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 183,
+        "left": 73,
+        "width": 698,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 1461
+      }
+    },
+    "844x390::collection-kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 1170
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 56,
+        "width": 732,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 128,
+        "left": 56,
+        "width": 732,
+        "height": 945
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 183,
+        "left": 73,
+        "width": 698,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 1170
+      }
+    },
+    "844x390::collection-kanji-empty": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 498
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 56,
+        "width": 732,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 128,
+        "left": 56,
+        "width": 732,
+        "height": 274
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 498
+      }
+    },
+    "844x390::collection-lesson": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 1104
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 56,
+        "width": 732,
+        "height": 19
+      },
+      "child[2] div.layout": {
+        "top": 128,
+        "left": 56,
+        "width": 732,
+        "height": 879
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 183,
+        "left": 73,
+        "width": 698,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 1104
+      }
+    },
+    "844x390::collection-pattern": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 483
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 64
+      },
+      "child[1] p.path": {
+        "top": 92,
+        "left": 56,
+        "width": 732,
+        "height": 19
+      },
+      "child[2] section.card": {
+        "top": 128,
+        "left": 56,
+        "width": 732,
+        "height": 259
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 483
+      }
+    },
+    "844x390::editor": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 1387
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 64
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 98,
+        "left": 56,
+        "width": 732,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 168,
+        "left": 56,
+        "width": 732,
+        "height": 1124
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 1387
+      }
+    },
+    "844x390::home": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 788
+      },
+      "child[0] section.card": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 214
+      },
+      "child[1] section.card": {
+        "top": 248,
+        "left": 56,
+        "width": 732,
+        "height": 444
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 788
+      }
+    },
+    "844x390::home-resume": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 890
+      },
+      "child[0] section.card": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 214
+      },
+      "child[1] section.card": {
+        "top": 248,
+        "left": 56,
+        "width": 732,
+        "height": 444
+      },
+      "child[2] section.card": {
+        "top": 710,
+        "left": 56,
+        "width": 732,
+        "height": 84
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 890
+      }
+    },
+    "844x390::kanji": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 861
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 64
+      },
+      "child[1] section.card": {
+        "top": 98,
+        "left": 56,
+        "width": 732,
+        "height": 668
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 861
+      }
+    },
+    "844x390::lessons": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 523
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 64
+      },
+      "child[1] section.card": {
+        "top": 98,
+        "left": 56,
+        "width": 732,
+        "height": 329
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 523
+      }
+    },
+    "844x390::patterns": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 1648
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 64
+      },
+      "child[1] section.card": {
+        "top": 98,
+        "left": 56,
+        "width": 732,
+        "height": 1454
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 1648
+      }
+    },
+    "844x390::session-active": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 404
+      },
+      "child[0] header.study-top": {
+        "top": 10,
+        "left": 56,
+        "width": 732,
+        "height": 85
+      },
+      "child[1] p.notice": {
+        "top": 120,
+        "left": 56,
+        "width": 732,
+        "height": 33
+      },
+      "child[2] div.study-body": {
+        "top": 178,
+        "left": 56,
+        "width": 732,
+        "height": 150
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 178,
+        "left": 56,
+        "width": 732,
+        "height": 150
+      },
+      "landmark .stage": {
+        "top": 178,
+        "left": 56,
+        "width": 395,
+        "height": 150
+      },
+      "landmark .study-controls": {
+        "top": 178,
+        "left": 465,
+        "width": 323,
+        "height": 150
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 404
+      }
+    },
+    "844x390::session-revealed": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 404
+      },
+      "child[0] header.study-top": {
+        "top": 10,
+        "left": 56,
+        "width": 732,
+        "height": 85
+      },
+      "child[1] p.notice": {
+        "top": 120,
+        "left": 56,
+        "width": 732,
+        "height": 33
+      },
+      "child[2] div.study-body": {
+        "top": 178,
+        "left": 56,
+        "width": 732,
+        "height": 150
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "landmark .study-body": {
+        "top": 178,
+        "left": 56,
+        "width": 732,
+        "height": 150
+      },
+      "landmark .stage": {
+        "top": 178,
+        "left": 56,
+        "width": 395,
+        "height": 150
+      },
+      "landmark .study-controls": {
+        "top": 178,
+        "left": 465,
+        "width": 323,
+        "height": 150
+      },
+      "landmark .ratings": {
+        "top": 180,
+        "left": 465,
+        "width": 323,
+        "height": 146
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 404
+      }
+    },
+    "844x390::settings": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 1302
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 64
+      },
+      "child[1] section.group": {
+        "top": 94,
+        "left": 56,
+        "width": 732,
+        "height": 234
+      },
+      "child[2] section.group": {
+        "top": 341,
+        "left": 56,
+        "width": 732,
+        "height": 158
+      },
+      "child[3] section.group": {
+        "top": 513,
+        "left": 56,
+        "width": 732,
+        "height": 391
+      },
+      "child[4] section.group": {
+        "top": 919,
+        "left": 56,
+        "width": 732,
+        "height": 76
+      },
+      "child[5] section.group": {
+        "top": 1008,
+        "left": 56,
+        "width": 732,
+        "height": 198
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "landmark .segmented": {
+        "top": 128,
+        "left": 471,
+        "width": 300,
+        "height": 48
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 1302
+      }
+    },
+    "844x390::stats": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 2124
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 64
+      },
+      "child[1] section.card": {
+        "top": 98,
+        "left": 56,
+        "width": 732,
+        "height": 321
+      },
+      "child[2] section.card": {
+        "top": 436,
+        "left": 56,
+        "width": 732,
+        "height": 441
+      },
+      "child[3] section.card": {
+        "top": 895,
+        "left": 56,
+        "width": 732,
+        "height": 928
+      },
+      "child[4] section.card": {
+        "top": 1841,
+        "left": 56,
+        "width": 732,
+        "height": 187
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "landmark .grid-stats": {
+        "top": 152,
+        "left": 73,
+        "width": 698,
+        "height": 75
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 2124
+      }
+    },
+    "844x390::transfer": {
+      "main.screen": {
+        "top": 0,
+        "left": 32,
+        "width": 780,
+        "height": 582
+      },
+      "child[0] header.page-header": {
+        "top": 16,
+        "left": 56,
+        "width": 732,
+        "height": 64
+      },
+      "child[1] div.liquid-tabs": {
+        "top": 98,
+        "left": 56,
+        "width": 732,
+        "height": 52
+      },
+      "child[2] section.card": {
+        "top": 168,
+        "left": 56,
+        "width": 732,
+        "height": 319
+      },
+      "nav": {
+        "top": 326,
+        "left": 0,
+        "width": 844,
+        "height": 64
+      },
+      "landmark .section-picker": {
+        "top": 185,
+        "left": 73,
+        "width": 698,
+        "height": 52
+      },
+      "landmark .dropzone": {
+        "top": 365,
+        "left": 73,
+        "width": 698,
+        "height": 61
+      },
+      "page": {
+        "top": 0,
+        "left": 0,
+        "width": 844,
+        "height": 582
+      }
+    }
+  }
+}

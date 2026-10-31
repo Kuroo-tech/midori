@@ -1,0 +1,10 @@
+{
+  "//": "Nguồn sự thật của nội dung xuất bản. Sinh ra public/data/content/** bằng scripts/build-content.mjs",
+  "schemaVersion": 1,
+  "contentVersion": "2026.10.29.1",
+  "bundles": [
+    { "deckId": "vocabulary", "name": "Từ vựng", "source": "bundles/vocabulary.json", "quiz": "meaning" },
+    { "deckId": "patterns", "name": "Mẫu câu", "source": "bundles/patterns.json", "quiz": "meaning" },
+    { "deckId": "kanji-noun", "name": "Kanji — Danh từ", "source": "bundles/kanji-noun.json", "quiz": "reading" }
+  ]
+}

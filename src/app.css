@@ -1,0 +1,1020 @@
+/* Biến thiết kế, token chuyển động, và kiểu dùng chung.
+   `data-theme` luôn mang giá trị cụ thể (`light`/`dark`) do JS giải sẵn, nên mỗi
+   chế độ chỉ cần một khối biến. */
+
+:root {
+  color-scheme: light;
+
+  /* M3-like surface system: tonal elevation + outline separation. */
+  --bg: #f3f7f5;
+  --bg-glow: #dff5ea;
+  --surface: #ffffff;
+  --surface-2: #eef5f2;
+  --surface-3: #e2ece8;
+  --surface-container: #f1f6f4;
+  --surface-container-high: #e6f0eb;
+  --surface-raised: rgba(255, 255, 255, 0.78);
+  --surface-variant: #edf4f1;
+  --glass: rgba(255, 255, 255, 0.58);
+  --glass-border: rgba(129, 148, 142, 0.4);
+  --text: #132118;
+  --muted: #566d63;
+  --border: #d5e1db;
+  --border-strong: #bfd1c9;
+  --outline: #bfd1c9;
+
+  /* ── Màu nhấn ────────────────────────────────────────────────────── */
+  --accent: #1e9a6d;
+  /* Accent dùng làm CHỮ nhỏ trên surface sáng. `--accent` chỉ đạt ~3.2:1 nên
+     không đủ cho văn bản thường; token này giữ cùng sắc xanh nhưng đủ 4.5:1. */
+  --accent-strong: #1b7a5d;
+  --accent-ink: #f4fff9;
+  --accent-soft: #dcf5ea;
+  --accent-line: #8bd0b0;
+  --accent-container: #dff8ee;
+  --danger: #b3261e;
+  --danger-soft: #fbe8e6;
+  --ok: #1b7a5d;
+  --warn: #8a6a00;
+  --warn-soft: #fdf3d4;
+
+  /* Màu riêng cho bốn mức tự chấm. Thang này là tín hiệu chức năng, không phải
+     trang trí: người học phải nhận ra mức nào là "quên" mà không cần đọc chữ. */
+  --rate-again: #d24a3f;
+  --rate-hard: #c07a12;
+  --rate-good: #0f8f68;
+  --rate-easy: #2f7ed8;
+
+  /* ── Hình khối ───────────────────────────────────────────────────── */
+  --radius-sm: 10px;
+  --radius: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 28px;
+  --nav-height: 64px;
+
+  /* ── Độ nổi ───────────────────────────────────────────────────────
+     Ba mức thay vì một: phần tử tương tác được phải "nổi" khác thẻ tĩnh, nếu
+     không mọi thứ trông phẳng như nhau và người dùng mất tín hiệu. */
+  --shadow-1: 0 1px 2px rgb(15 33 26 / 5%), 0 1px 1px rgb(15 33 26 / 4%);
+  --shadow-2: 0 1px 2px rgb(15 33 26 / 6%), 0 8px 22px rgb(15 33 26 / 7%);
+  --shadow-3: 0 2px 4px rgb(15 33 26 / 8%), 0 18px 44px rgb(15 33 26 / 12%);
+  --shadow: var(--shadow-2);
+
+  /* ── Chuyển động ──────────────────────────────────────────────────
+     Thời lượng nằm ở token để `prefers-reduced-motion` tắt được MỘT chỗ thay vì
+     phải sửa từng component. */
+  --dur-1: 120ms;
+  --dur-2: 200ms;
+  --dur-3: 320ms;
+  --dur-4: 480ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+
+  /* Điều khiển gốc của trình duyệt (ô đánh dấu, thanh trượt, ô chọn) lấy màu
+     nhấn của ứng dụng thay vì màu xanh mặc định. */
+  accent-color: var(--accent);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #08110e;
+  --bg-glow: #0f2b24;
+  --surface: #111c19;
+  --surface-2: #1a2c27;
+  --surface-3: #233932;
+  --surface-container: #182820;
+  --surface-container-high: #20342d;
+  --surface-raised: rgba(17, 28, 25, 0.8);
+  --surface-variant: #1a2c27;
+  --glass: rgba(17, 25, 22, 0.56);
+  --glass-border: rgba(160, 183, 175, 0.28);
+  --text: #edf6f1;
+  --muted: #9bb3ad;
+  --border: #28433c;
+  --border-strong: #365950;
+  --outline: #3b5d53;
+  --accent: #49d39f;
+  --accent-strong: #67d3a7;
+  --accent-ink: #072b1b;
+  --accent-soft: #15342b;
+  --accent-line: #5abf9c;
+  --accent-container: #123a2d;
+  --danger: #f2857c;
+  --danger-soft: #3a201d;
+  --ok: #67d3a7;
+  --warn: #e3bf5f;
+  --warn-soft: #38301a;
+  --rate-again: #f0776b;
+  --rate-hard: #e9b25a;
+  --rate-good: #3fd39c;
+  --rate-easy: #79b4f5;
+  --shadow-1: 0 1px 2px rgb(0 0 0 / 45%);
+  --shadow-2: 0 1px 2px rgb(0 0 0 / 40%), 0 10px 26px rgb(0 0 0 / 40%);
+  --shadow-3: 0 2px 6px rgb(0 0 0 / 50%), 0 22px 52px rgb(0 0 0 / 55%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  /* Thanh cuộn mặc định quá nặng so với bảng màu này; bản mảnh hợp hơn mà vẫn
+     cho thấy vị trí đang đọc. */
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+  -webkit-text-size-adjust: 100%;
+  /*
+   * Chặn pull-to-refresh. Phải đặt trên PHẦN TỬ CUỘN (thường là `html`), không
+   * chỉ `body`: Chrome/Android chỉ vô hiệu hoá kéo-để-tải-lại khi phần tử cuộn
+   * gốc khai báo `overscroll-behavior-y`. Kéo để tải lại trong lúc học là thao
+   * tác phá phiên học mà không mang lại giá trị nào.
+   *
+   * Giới hạn nền tảng: iOS Safari trong tab thường vẫn có pull-to-refresh của
+   * chính trình duyệt và không cho web tắt; trong PWA đã cài (standalone) thì
+   * không có. Cuộn dọc trong danh sách và ô nhập vẫn hoạt động bình thường vì
+   * `contain`/`none` chỉ chặn hiệu ứng vượt biên, không chặn `touchstart`.
+   */
+  overscroll-behavior-y: none;
+}
+
+/* Vùng bôi đen lấy màu nhấn; mặc định của trình duyệt đè lên cả chữ ở chế độ tối. */
+::selection {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    'Noto Sans',
+    'Noto Sans JP',
+    sans-serif;
+  line-height: 1.5;
+  /* Chặn pull-to-refresh và các cử chỉ cuộn của trình duyệt làm gián đoạn thao tác. */
+  overscroll-behavior: none;
+  /* Không làm sáng xanh cả khối khi chạm; phản hồi nằm ở từng phần tử. */
+  -webkit-tap-highlight-color: transparent;
+  /* Hai vệt sáng rất nhẹ phía sau nội dung. Tạo chiều sâu mà không tốn tài
+     nguyên: thuần gradient, không ảnh, không phần tử thêm. */
+  background-image:
+    radial-gradient(70% 42% at 50% -6%, var(--bg-glow) 0%, transparent 70%),
+    radial-gradient(46% 34% at 100% 100%, var(--bg-glow) 0%, transparent 72%);
+  background-attachment: fixed;
+}
+
+#app {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* Chừa vùng an toàn của thiết bị có tai thỏ / thanh cử chỉ. */
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-area-inset-left);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Liquid Glass dùng chung cho các thanh tab và điều hướng dạng tab. */
+.liquid-tabs {
+  --tab-indicator-inset-x: 4px;
+  --tab-indicator-inset-y: 4px;
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: repeat(var(--tab-count, 3), minmax(0, 1fr));
+  gap: 6px;
+  padding: 4px;
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--glass) 82%, var(--surface-2));
+  box-shadow: var(--shadow-1);
+  backdrop-filter: blur(16px) saturate(1.1);
+  -webkit-backdrop-filter: blur(16px) saturate(1.1);
+  touch-action: pan-y;
+}
+
+.liquid-tabs__indicator {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--indicator-width, 0px);
+  height: var(--indicator-height, 0px);
+  z-index: 0;
+  pointer-events: auto;
+  touch-action: none;
+  cursor: grab;
+  border: 1px solid color-mix(in srgb, var(--accent) 24%, var(--glass-border));
+  border-radius: 11px;
+  background:
+    linear-gradient(145deg, rgb(255 255 255 / 24%), transparent 58%),
+    linear-gradient(180deg, color-mix(in srgb, var(--accent-soft) 92%, transparent), color-mix(in srgb, var(--glass) 76%, var(--surface)));
+  box-shadow: 0 4px 10px rgb(15 33 26 / 6%), inset 0 1px 0 rgb(255 255 255 / 38%);
+  backdrop-filter: blur(14px) saturate(1.1);
+  -webkit-backdrop-filter: blur(14px) saturate(1.1);
+  transform-origin: 50% 50%;
+  will-change: transform;
+  transition:
+    transform 300ms var(--ease-out),
+    width 300ms var(--ease-out),
+    height 300ms var(--ease-out),
+    box-shadow var(--dur-2) var(--ease-out);
+  user-select: none;
+}
+
+.liquid-tabs__indicator::after {
+  content: '';
+  position: absolute;
+  inset: 1px 14% auto;
+  height: 1px;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 36%);
+  box-shadow: 0 0 8px rgb(255 255 255 / 16%);
+}
+
+.liquid-tabs__indicator.is-dragging {
+  cursor: grabbing;
+  transition: none;
+  box-shadow: 0 8px 18px rgb(15 33 26 / 10%), inset 0 1px 0 rgb(255 255 255 / 42%);
+}
+
+.liquid-tabs__indicator:not(.is-positioned) {
+  visibility: hidden;
+}
+
+.liquid-tabs > button {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+  min-height: 42px;
+  padding: 7px 8px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 650;
+  transition: color var(--dur-2) var(--ease-out), transform var(--dur-1) var(--ease-out);
+  touch-action: manipulation;
+}
+
+.liquid-tabs > button > * {
+  pointer-events: none;
+}
+
+.liquid-tabs > button[aria-selected='true'],
+.liquid-tabs > button[aria-current='page'],
+.liquid-tabs > button.is-drag-target {
+  color: var(--accent-strong);
+}
+
+.liquid-tabs > button:active {
+  transform: scale(0.98);
+}
+
+.liquid-tabs--navigation > button[aria-current='page'] {
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.liquid-tabs__badge {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-inline-start: 2px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.liquid-tabs--navigation {
+  --tab-count: 3;
+  width: 100%;
+  height: 100%;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.liquid-tabs--navigation > button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-height: 0;
+  border-radius: 14px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.liquid-tabs--navigation > button svg {
+  transition: transform var(--dur-3) var(--ease-spring);
+}
+
+.liquid-tabs--segmented {
+  min-width: 0;
+  gap: 4px;
+}
+
+.liquid-tabs--segmented > button {
+  min-height: 38px;
+  padding: 6px;
+  font-size: 0.8rem;
+}
+
+@supports not ((backdrop-filter: blur(2px)) or (-webkit-backdrop-filter: blur(2px))) {
+  .liquid-tabs,
+  .liquid-tabs__indicator,
+  .switch .track {
+    background: var(--surface);
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .liquid-tabs,
+  .liquid-tabs__indicator,
+  .switch .track {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: var(--surface);
+  }
+
+  .liquid-tabs__indicator.is-dragging {
+    transition: none;
+  }
+}
+
+@media (hover: hover) {
+  .liquid-tabs > button:hover:not([aria-selected='true']):not([aria-current='page']) {
+    color: var(--text);
+  }
+}
+
+/*
+ * Chỉ nút và biểu tượng mới bị chặn chọn văn bản. Nội dung HỌC (kanji, furigana,
+ * từ vựng, nghĩa, câu tiếng Nhật) phải chọn và sao chép được — người học thường
+ * muốn tra cứu một từ ngay trong trình duyệt khác.
+ */
+input,
+textarea,
+.face,
+.prompt,
+.answer,
+.reading {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  /* Ngắt dòng cân đối: tiêu đề hai dòng không còn câu đầu dài câu sau ngắn. */
+  text-wrap: balance;
+}
+
+/* Chữ co giãn theo bề rộng màn hình nhưng có trần và sàn: nhỏ gọn trên điện
+   thoại, không phình to vô ích trên màn hình rộng. */
+h1 {
+  font-size: clamp(1.4rem, 1.15rem + 1.1vw, 1.75rem);
+}
+
+h2 {
+  font-size: clamp(1.02rem, 0.96rem + 0.3vw, 1.18rem);
+}
+
+/* Đoạn văn dài: hạn chế dòng cuối chỉ còn một từ ("widow"). */
+p {
+  text-wrap: pretty;
+}
+
+/* Vòng focus chỉ hiện khi điều hướng bằng bàn phím, để không làm phiền khi chạm. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Thang chữ hiển thị số: dùng chữ số đều bề rộng để số không nhảy khi thay đổi. */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Khối dùng chung ─────────────────────────────────────────────────── */
+
+.screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 12px 16px calc(var(--nav-height) + 28px);
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  background: linear-gradient(180deg, var(--surface), color-mix(in srgb, var(--surface-container) 90%, var(--surface)));
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 16px;
+  box-shadow: 0 1px 2px rgb(17 24 39 / 6%), 0 12px 30px rgb(15 33 26 / 8%);
+  transition:
+    background-color var(--dur-2) var(--ease-out),
+    border-color var(--dur-2) var(--ease-out),
+    box-shadow var(--dur-2) var(--ease-out);
+}
+
+.surface-panel {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--surface-raised) 100%, transparent),
+    color-mix(in srgb, var(--surface) 88%, transparent)
+  );
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-2);
+  backdrop-filter: blur(18px) saturate(1.2);
+  -webkit-backdrop-filter: blur(18px) saturate(1.2);
+}
+
+@supports not ((backdrop-filter: blur(2px)) or (-webkit-backdrop-filter: blur(2px))) {
+  .surface-panel {
+    background: var(--surface);
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .surface-panel {
+    background: var(--surface);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.section-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 4px 8px;
+}
+
+.toolbar-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.grid-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(84px, 1fr));
+  gap: 10px;
+}
+
+.stat {
+  position: relative;
+  background: var(--surface-2);
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  overflow: hidden;
+  transition:
+    transform var(--dur-3) var(--ease-spring),
+    background-color var(--dur-2) var(--ease-out);
+}
+
+.stat b {
+  display: block;
+  font-size: 1.55rem;
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.stat span {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+/* Vạch màu dưới chân ô số liệu, giúp phân biệt các nhóm số bằng mắt. */
+.stat::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 3px;
+  background: var(--stat-tint, var(--accent-line));
+  opacity: 0.55;
+}
+
+/* ── Nút ─────────────────────────────────────────────────────────────── */
+
+.btn {
+  position: relative;
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 12px 16px;
+  font-weight: 600;
+  box-shadow: 0 1px 2px rgb(15 33 26 / 4%);
+  touch-action: manipulation;
+  transition:
+    transform var(--dur-1) var(--ease-out),
+    background-color var(--dur-2) var(--ease-out),
+    border-color var(--dur-2) var(--ease-out),
+    box-shadow var(--dur-2) var(--ease-out);
+}
+
+.btn:active:not(:disabled) {
+  transform: scale(0.975);
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 97%, white), var(--accent));
+  border-color: color-mix(in srgb, var(--accent) 60%, transparent);
+  color: var(--accent-ink);
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--accent) 14%, transparent);
+}
+
+.btn-danger {
+  color: var(--danger);
+  border-color: color-mix(in srgb, var(--danger) 45%, var(--border));
+  background: var(--danger-soft);
+}
+
+.btn-block {
+  width: 100%;
+  text-align: left;
+}
+
+/*
+ * Nút có biểu tượng kèm chữ.
+ *
+ * Đặt ở đây, KHÔNG đặt trong từng component: `<button>` có một quy tắc mặc định
+ * của trình duyệt là `align-items: flex-start`, nên mọi nút dùng `display: flex`
+ * đều phải tự khai báo lại căn chỉnh. Gom vào một lớp dùng chung vừa tránh lặp
+ * lại, vừa tránh việc một component vô tình ghi đè lớp `.btn` và làm hỏng bố cục
+ * của component khác.
+ */
+.btn-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Chỉ báo hover khi thiết bị thực sự có con trỏ. Trên màn hình cảm ứng, hover
+   dính lại sau khi chạm và làm giao diện trông như đang được chọn. */
+@media (hover: hover) {
+  .btn:hover:not(:disabled) {
+    border-color: var(--accent-line);
+    box-shadow: var(--shadow-2);
+  }
+
+  .stat:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* ── Ô nhập ──────────────────────────────────────────────────────────── */
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field > span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.field input,
+.field select {
+  background: var(--surface-container);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 11px 12px;
+  width: 100%;
+  transition:
+    border-color var(--dur-2) var(--ease-out),
+    box-shadow var(--dur-2) var(--ease-out),
+    background-color var(--dur-2) var(--ease-out);
+}
+
+.field input:focus,
+.field select:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+/* Công tắc kính dùng chung; checkbox thật vẫn là nguồn trạng thái và nhận focus. */
+.switch {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.switch input {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 0;
+  width: 48px;
+  height: 44px;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.switch .track {
+  position: relative;
+  flex: 0 0 auto;
+  width: 48px;
+  height: 30px;
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--glass) 92%, var(--surface-3)), var(--surface-3));
+  box-shadow: inset 0 1px 2px rgb(15 33 26 / 6%);
+  backdrop-filter: blur(10px) saturate(1.05);
+  -webkit-backdrop-filter: blur(10px) saturate(1.05);
+  transition:
+    background var(--dur-2) var(--ease-out),
+    border-color var(--dur-2) var(--ease-out),
+    box-shadow var(--dur-2) var(--ease-out);
+}
+
+.switch .track::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  border: 1px solid rgb(255 255 255 / 32%);
+  border-radius: 50%;
+  background: linear-gradient(145deg, color-mix(in srgb, #ffffff 70%, var(--surface-3)), color-mix(in srgb, var(--surface) 82%, var(--accent-soft)));
+  box-shadow: 0 2px 4px rgb(15 33 26 / 12%), inset 0 1px 0 rgb(255 255 255 / 42%);
+  transition:
+    transform var(--dur-3) var(--ease-spring),
+    box-shadow var(--dur-2) var(--ease-out);
+}
+
+.switch input:checked + .track {
+  border-color: color-mix(in srgb, var(--accent) 72%, var(--glass-border));
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 76%, white), var(--accent));
+  box-shadow: inset 0 1px 3px rgb(15 33 26 / 10%), 0 0 10px color-mix(in srgb, var(--accent) 8%, transparent);
+}
+
+.switch input:checked + .track::after {
+  transform: translateX(18px);
+  box-shadow: 0 2px 5px rgb(15 33 26 / 14%), 0 0 6px rgb(255 255 255 / 18%), inset 0 1px 0 rgb(255 255 255 / 70%);
+}
+
+.switch input:disabled {
+  cursor: default;
+}
+
+.switch input:checked + .track::before {
+  content: '';
+  position: absolute;
+  inset: 1px 7px auto;
+  height: 1px;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 28%);
+}
+
+.switch:has(input:disabled) {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.switch input:focus-visible + .track {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ── Nhãn, thông báo, thanh tiến độ ──────────────────────────────────── */
+
+.pill {
+  display: inline-block;
+  background: var(--accent-soft);
+  color: var(--ok);
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.notice {
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  font-size: 0.875rem;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+.notice-danger {
+  border-color: color-mix(in srgb, var(--danger) 40%, var(--border));
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.notice-ok {
+  border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
+  background: var(--accent-soft);
+  color: var(--ok);
+}
+
+/* Mức "gần đúng": đúng một phần, KHÔNG phải lỗi. Dùng sắc cảnh báo để người học
+   không đọc nó như "sai hẳn" mà cũng không nhầm là "đúng". */
+.notice-warn {
+  border-color: color-mix(in srgb, var(--warn) 45%, var(--border));
+  background: var(--warn-soft);
+  color: var(--warn);
+}
+
+.progress {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--surface-3);
+  overflow: hidden;
+}
+
+.progress > i {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 55%, #7ee6bd));
+  transition: width var(--dur-3) var(--ease-out);
+}
+
+/* ── Điều hướng dưới ────────────────────────────────────────────────── */
+
+.nav {
+  position: fixed;
+  inset: auto 0 0 0;
+  height: calc(var(--nav-height) + env(safe-area-inset-bottom));
+  padding: 8px 12px calc(8px + env(safe-area-inset-bottom));
+  display: block;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.03),
+    color-mix(in srgb, var(--surface) 96%, transparent)
+  );
+  border-top: 1px solid var(--glass-border);
+  -webkit-backdrop-filter: blur(18px) saturate(1.08);
+  backdrop-filter: blur(18px) saturate(1.08);
+  box-shadow: 0 -6px 20px rgb(15 33 26 / 8%);
+}
+
+/* Không có lớp làm mờ thì nền trong suốt sẽ để nội dung phía sau lộ qua dưới
+   chân chữ. Dùng nền đặc — điều hướng vẫn đúng, chỉ mất hiệu ứng. */
+@supports not ((backdrop-filter: blur(2px)) or (-webkit-backdrop-filter: blur(2px))) {
+  .nav {
+    background: var(--surface);
+  }
+}
+
+/* Người dùng yêu cầu giảm độ trong suốt (một số bản Safari/Chrome). */
+@media (prefers-reduced-transparency: reduce) {
+  .nav {
+    background: var(--surface);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+
+.liquid-tabs--navigation > button svg {
+  transition: transform var(--dur-3) var(--ease-spring);
+}
+
+.liquid-tabs--segmented {
+  gap: 4px;
+}
+
+/* Chỉ báo điều hướng cũ dùng inset ngang 10px; các thanh tab khác chỉ inset 4px. */
+.liquid-tabs--navigation {
+  --tab-indicator-inset-x: 10px;
+  --tab-indicator-inset-y: 4px;
+}
+
+.liquid-tabs > button > * {
+  position: relative;
+}
+
+@media (hover: hover) {
+  .liquid-tabs--navigation > button:hover:not([aria-current='page']) {
+    color: var(--text);
+  }
+}
+
+/* ── Chuyển động dùng chung ─────────────────────────────────────────── */
+
+/* Nhịp vào so le cho danh sách: mỗi phần tử chờ phần trước một chút. */
+@keyframes midori-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rise {
+  animation: midori-rise var(--dur-3) var(--ease-out) backwards;
+  animation-delay: var(--rise-delay, 0ms);
+}
+
+/* Nhấn mạnh một phần tử vừa đổi giá trị (ví dụ số liệu sau khi chấm điểm). */
+@keyframes midori-pop {
+  0% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pop {
+  animation: midori-pop var(--dur-4) var(--ease-spring);
+}
+
+/* ── Tương phản cao ───────────────────────────────────────────────
+   Khi hệ điều hành yêu cầu tương phản cao hơn, viền và chữ mờ được đẩy mạnh
+   thay vì chỉ đổi màu nền — đây là điều kiện đọc được, không phải thẩm mỹ. */
+@media (prefers-contrast: more) {
+  :root {
+    --border: color-mix(in srgb, var(--text) 32%, var(--surface));
+    --border-strong: color-mix(in srgb, var(--text) 55%, var(--surface));
+    --muted: color-mix(in srgb, var(--text) 78%, var(--surface));
+  }
+
+  .card,
+  .btn,
+  .notice,
+  .pill,
+  .field input,
+  .field select {
+    border-width: 2px;
+  }
+}
+
+/*
+ * TẮT CHUYỂN ĐỘNG khi người dùng yêu cầu.
+ *
+ * Đặt ở đây thay vì trong từng component: mọi thời lượng đều đi qua token, nên
+ * một khối này vô hiệu hoá toàn bộ animation của ứng dụng. Không dùng
+ * `animation: none` cho mọi thứ vì như vậy `.rise` sẽ mất luôn trạng thái kết
+ * thúc; thay vào đó đưa thời lượng về 1ms để phần tử hiện ra ngay.
+ *
+ * Độ TRỄ cũng phải về 0, không chỉ thời lượng: hầu hết hiệu ứng vào dùng
+ * `backwards` kèm dàn so le (`.rise` với `--rise-delay` tới ~320ms, nội dung mặt
+ * đáp án 140–320ms). Giữ nguyên độ trễ thì nội dung vẫn đứng ẩn suốt dải so le
+ * rồi mới bật ra — vẫn là chuyển động, chỉ đổi từ "trượt" thành "chờ rồi hiện".
+ */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-1: 1ms;
+    --dur-2: 1ms;
+    --dur-3: 1ms;
+    --dur-4: 1ms;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── Màn hình rộng ────────────────────────────────────────────────────
+   Ứng dụng vẫn là một cột đọc được; trên màn rộng nó chỉ rộng rãi hơn thay vì
+   dính vào mép. Bố cục hai cột của Trang chủ nằm ở `Home.svelte` vì nó cần biết
+   thứ tự khối nội dung. */
+@media (min-width: 720px) {
+  .screen {
+    max-width: 780px;
+    padding: 16px 24px calc(var(--nav-height) + 32px);
+    gap: 18px;
+  }
+
+  /* Thanh điều hướng vẫn trải hết bề ngang (nền và đường viền trên phải liền,
+     không được hụt ở hai mép), nhưng ba tab được gom vào đúng bề ngang của cột
+     nội dung. Trước đây ở 1280px, nội dung rộng 940px còn các tab dàn ra hai mép
+     màn hình, trông như hai lớp giao diện rời nhau. */
+  .nav {
+    padding-inline: max(12px, calc((100% - 780px) / 2));
+  }
+
+  .liquid-tabs--navigation > button {
+    font-size: 0.75rem;
+  }
+
+  .theme-row > .liquid-tabs--segmented {
+    flex: 0 0 300px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .screen {
+    max-width: 940px;
+  }
+
+  .nav {
+    padding-inline: max(12px, calc((100% - 940px) / 2));
+  }
+}
+
+/* Chip tên cột trong đoạn giải thích: ngắt dòng GIỮA các chip chứ không ngắt
+   giữa chip — dấu phẩy rơi xuống đầu dòng trông như lỗi. */
+.screen code {
+  white-space: nowrap;
+}

@@ -1,0 +1,25 @@
+[package]
+name = "midori-wasm"
+description = "Biên WASM mỏng của Midori — chỉ chuyển tiếp sang midori-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+midori-core = { path = "../midori-core" }
+wasm-bindgen.workspace = true
+
+# `wasm-opt` bị tắt có chủ đích.
+#
+# binaryen được wasm-pack tải về (bản 117 trong cache máy này) không xác thực
+# được codegen hiện tại của Rust (thiếu `--enable-bulk-memory` /
+# `--enable-nontrapping-float-to-int`), làm hỏng build. Bật lại sẽ phải gắn chặt
+# với một phiên bản binaryen cụ thể — đổi lấy ~6% kích thước file.
+# Cách bật lại (đã thử và chạy được với binaryen 117):
+#   wasm-opt = ["-Oz", "--enable-bulk-memory", "--enable-nontrapping-float-to-int"]
+# Ưu tiên build tái lập được ở mọi máy; `opt-level = "z"` + LTO đã lo phần lớn.
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false

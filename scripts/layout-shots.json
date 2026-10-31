@@ -1,0 +1,1159 @@
+{
+  "note": "Ảnh chuẩn từng pixel, sinh bằng LAYOUT_UPDATE_SHOTS=1 npm run audit:layout. Vùng chữ so theo ba thước đo (trung bình khối, màu mực, độ lệch sắc của mực), phần còn lại so từng pixel — xem scripts/audit-layout.mjs.",
+  "format": "webp",
+  "downscale": 2,
+  "tolerance": 20,
+  "textTolerance": 12,
+  "textInkTolerance": 12,
+  "textInkChroma": 80,
+  "textInkChromaBlocks": 4,
+  "textInkLevel": 0.5,
+  "textBudget": 0.4,
+  "textBlock": 4,
+  "textHalo": 2,
+  "budgetFraction": 0.001,
+  "bytes": 4754776,
+  "viewports": [
+    "1024x768",
+    "1440x900",
+    "320x568",
+    "360x640",
+    "390x844",
+    "414x896",
+    "667x375",
+    "768x1024",
+    "820x1180",
+    "844x390"
+  ],
+  "renderer": {
+    "browser": "Chrome/156.0.8078.73",
+    "platform": "linux-x64",
+    "binary": "/usr/bin/google-chrome-stable",
+    "deviceScaleFactor": 1,
+    "sansSerif": "Noto Sans",
+    "flags": [],
+    "format": "webp"
+  },
+  "shots": {
+    "1024x768::collection-all": {
+      "file": "1024x768--collection-all.webp",
+      "bytes": 45752,
+      "sha256": "5a1da6bcc349d019c94714e5248845ba271ce59abe20f7ab9901aa257b1e3714",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::collection-kanji": {
+      "file": "1024x768--collection-kanji.webp",
+      "bytes": 40442,
+      "sha256": "561fc7bb4ebe4133ac9a6dc20c61e456b802f53eac33ae1c53589d4ec8729725",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::collection-kanji-empty": {
+      "file": "1024x768--collection-kanji-empty.webp",
+      "bytes": 39902,
+      "sha256": "13146ebaf0788a22b15b25f565233016d53a00ed61327353a262867cb42b1758",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::collection-lesson": {
+      "file": "1024x768--collection-lesson.webp",
+      "bytes": 38748,
+      "sha256": "9f05ee4128ac74333fa2d1634353d4f447763e748e4adc122209beea61a2e8fd",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::collection-pattern": {
+      "file": "1024x768--collection-pattern.webp",
+      "bytes": 38318,
+      "sha256": "c003123263c8b55d8a65aeef59f3958449313c1ea141a8df80b9474edc06266e",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::editor": {
+      "file": "1024x768--editor.webp",
+      "bytes": 31716,
+      "sha256": "4313ab81826cf7c7b6fef96a5b31b6d0e1bcfa7faca8dbe8936bdac1e45f3285",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::home": {
+      "file": "1024x768--home.webp",
+      "bytes": 37446,
+      "sha256": "10577f1c48362c1edf4c5e14ea74db40e7cec46f7afb1491f22d1c1e3cc27ca1",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::home-resume": {
+      "file": "1024x768--home-resume.webp",
+      "bytes": 41374,
+      "sha256": "d5b863146290df8f0c38ce2902fc79e3e7f6b60b9af70f2e78cf3a18218fb296",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::kanji": {
+      "file": "1024x768--kanji.webp",
+      "bytes": 32796,
+      "sha256": "cbde3d6461173bc57d15c3fe4a40253af634b20f2540bfa578a9ddae4f9497ec",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::lessons": {
+      "file": "1024x768--lessons.webp",
+      "bytes": 36630,
+      "sha256": "d76cb3660dcb3121fc69e80f4dd1c05c8e1bfd03457c27779e83050ceee45b95",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::patterns": {
+      "file": "1024x768--patterns.webp",
+      "bytes": 40298,
+      "sha256": "6bef877539db291feaed38522a3d515dab00516e6af9edc0d07e8a4f5a135a9b",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::session-active": {
+      "file": "1024x768--session-active.webp",
+      "bytes": 26632,
+      "sha256": "b44fa05a7286ec9dd1a7d8a0491616950407e26ed478d7e37942f7967b42f576",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::session-revealed": {
+      "file": "1024x768--session-revealed.webp",
+      "bytes": 29456,
+      "sha256": "941c03948c97ad6c125bfc1dbb054ab7ddaa5acf8bf88014eb6c8f871b84b680",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::settings": {
+      "file": "1024x768--settings.webp",
+      "bytes": 32440,
+      "sha256": "620e2a84cd4de24765fd02af8ba17fc130c898fda59df9e64d6a57a78955a058",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::stats": {
+      "file": "1024x768--stats.webp",
+      "bytes": 38074,
+      "sha256": "8df0632ba31138ef63d02dca981966db26b12cdec8e53c4cf2fd056779e38349",
+      "columns": 512,
+      "rows": 384
+    },
+    "1024x768::transfer": {
+      "file": "1024x768--transfer.webp",
+      "bytes": 46116,
+      "sha256": "a3cb39ca3e2d6dc3a28fadf6a3e40bcb9bf32843617c77886a4862034a8fbae0",
+      "columns": 512,
+      "rows": 384
+    },
+    "1440x900::collection-all": {
+      "file": "1440x900--collection-all.webp",
+      "bytes": 51074,
+      "sha256": "43e311a017cf5628e3ece5512f4082d90a05994e950cedfb5cd9b97d9cb69d64",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::collection-kanji": {
+      "file": "1440x900--collection-kanji.webp",
+      "bytes": 42286,
+      "sha256": "31f7423c575b9493b8538edb24e8f8e96a81cf9fbeda131ef067ca11c8b3b9d9",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::collection-kanji-empty": {
+      "file": "1440x900--collection-kanji-empty.webp",
+      "bytes": 61988,
+      "sha256": "8ea317881aff5a9eba1e8d019e60812fb8e130f1361bb5cad4b6fda8d5863e1c",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::collection-lesson": {
+      "file": "1440x900--collection-lesson.webp",
+      "bytes": 41268,
+      "sha256": "cb230e0f5c14a78756bdd4b2b736ca0d61d2b41a13eae855f6041f5b1b222ee3",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::collection-pattern": {
+      "file": "1440x900--collection-pattern.webp",
+      "bytes": 47470,
+      "sha256": "80aed7964eec45c915a27e2bdfb45f636eae387d2b70d5a308b4a36761a390b8",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::editor": {
+      "file": "1440x900--editor.webp",
+      "bytes": 38630,
+      "sha256": "5fa615d19d8a0d2b71df455661ce96a40d278be037833612015abfaa648b7053",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::home": {
+      "file": "1440x900--home.webp",
+      "bytes": 40522,
+      "sha256": "a7ba3ca4a729f60e24773a0b07e64f2e5922605ded4f985de4bf50b949354b38",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::home-resume": {
+      "file": "1440x900--home-resume.webp",
+      "bytes": 46676,
+      "sha256": "ab483db63f3a31d03dfc4fde237bb53e31af52eb668d3cb9d1f173798e1d4ff4",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::kanji": {
+      "file": "1440x900--kanji.webp",
+      "bytes": 36404,
+      "sha256": "b05728205137cbd294bc61e54fdf1f67aac73e2dffbed188220d78b68ed63f8c",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::lessons": {
+      "file": "1440x900--lessons.webp",
+      "bytes": 57562,
+      "sha256": "f770d5476bf7f2c395d57d0a2bde781c06c3dc139dc4abc15e36393b57e60f50",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::patterns": {
+      "file": "1440x900--patterns.webp",
+      "bytes": 45446,
+      "sha256": "6f9dd8c871b5d214e258840b98f055492be266e1fb4b3a677ba0bf60eaed759f",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::session-active": {
+      "file": "1440x900--session-active.webp",
+      "bytes": 30144,
+      "sha256": "7f64164aa8791d3936c5161f32c508e44353d9268684a27c09d4dd6cde48ff0f",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::session-revealed": {
+      "file": "1440x900--session-revealed.webp",
+      "bytes": 32284,
+      "sha256": "e8ca2fa0d24bb7ab66b17ca2eab8b7b39aa17147e2c7ec9db04178ebb899e5ff",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::settings": {
+      "file": "1440x900--settings.webp",
+      "bytes": 40160,
+      "sha256": "ebbd2825c63e2671d1b9cb939d21d3cbffb6eb0bddd4235e6c3a3db9843c3512",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::stats": {
+      "file": "1440x900--stats.webp",
+      "bytes": 43312,
+      "sha256": "e3dc25d8aa1ddd483a581bca54fb8d408c1d26007b71eddd42b98ae1147f8ed0",
+      "columns": 720,
+      "rows": 450
+    },
+    "1440x900::transfer": {
+      "file": "1440x900--transfer.webp",
+      "bytes": 69310,
+      "sha256": "05f0a3b21bb75abd0a41b962974322e5a2fe275d912f46e70b9976d4c7718b3e",
+      "columns": 720,
+      "rows": 450
+    },
+    "320x568::collection-all": {
+      "file": "320x568--collection-all.webp",
+      "bytes": 19518,
+      "sha256": "a53f165795fe5ba226d956bc8c611fdd11d4d0e544fcae1a5016fc956ea12448",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::collection-kanji": {
+      "file": "320x568--collection-kanji.webp",
+      "bytes": 18148,
+      "sha256": "5477e46d6f9e4cca3cf1110bee05b208ca6e6e5243cad4280bc1a3cb704db95d",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::collection-kanji-empty": {
+      "file": "320x568--collection-kanji-empty.webp",
+      "bytes": 18006,
+      "sha256": "7860d184dba86e0840cdb094e4053b156bf322240a1c764fb12ab327f3c2c501",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::collection-lesson": {
+      "file": "320x568--collection-lesson.webp",
+      "bytes": 17814,
+      "sha256": "b3b4d645e462a85c9d37a2cd65e2a6f2481608153bdeb9c61da2fa77c5452a23",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::collection-pattern": {
+      "file": "320x568--collection-pattern.webp",
+      "bytes": 15510,
+      "sha256": "70f74552b1e5dde227f5832cf8e7da247ca5e257c640a4bcebd1348e8935adfd",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::editor": {
+      "file": "320x568--editor.webp",
+      "bytes": 20134,
+      "sha256": "242876f1439b695a596405b1ce4089df3ce54cd3e502040dbd0ee5b1be74ce6a",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::home": {
+      "file": "320x568--home.webp",
+      "bytes": 25550,
+      "sha256": "48088ccf68f395f8bdc609b6c3aac57162f7a344768657386e8c8b492ce32cab",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::home-resume": {
+      "file": "320x568--home-resume.webp",
+      "bytes": 25550,
+      "sha256": "48088ccf68f395f8bdc609b6c3aac57162f7a344768657386e8c8b492ce32cab",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::kanji": {
+      "file": "320x568--kanji.webp",
+      "bytes": 19282,
+      "sha256": "778e112b574d975527f271fbdf0016b5b48fb4f9a79ee152cdad7eb56bc7b191",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::lessons": {
+      "file": "320x568--lessons.webp",
+      "bytes": 17734,
+      "sha256": "445d50b1d60c282fc1bb236aa00f409aa9a8dcf7a62b6dfcee74513bbba214dd",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::patterns": {
+      "file": "320x568--patterns.webp",
+      "bytes": 18088,
+      "sha256": "4aee954017259a440a23292710ee2efdbd00a9124c1164529ac94a4357f58a3e",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::session-active": {
+      "file": "320x568--session-active.webp",
+      "bytes": 17208,
+      "sha256": "64d5dbfbdc0e9b8d8f01ca33fc794a1451eef8fc766fe0cf188ae032b773b74a",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::session-revealed": {
+      "file": "320x568--session-revealed.webp",
+      "bytes": 20924,
+      "sha256": "4d0ce6d8dbe45e927f72843a7823ce48da26c24f99b8f20e4dab83863903ee76",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::settings": {
+      "file": "320x568--settings.webp",
+      "bytes": 18416,
+      "sha256": "5449b81e2dd27b4f6cecb110f3aeb9d3013d875d35ef74386d3785b4cd3eed7d",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::stats": {
+      "file": "320x568--stats.webp",
+      "bytes": 20094,
+      "sha256": "2c14546de8356ad2b39b73ddd6407a0623c782e8919496ea83df61867ec463bc",
+      "columns": 160,
+      "rows": 284
+    },
+    "320x568::transfer": {
+      "file": "320x568--transfer.webp",
+      "bytes": 20578,
+      "sha256": "0b19a3b74a22a2d1793520daadd595621ff8301baf20007ec6153348460143aa",
+      "columns": 160,
+      "rows": 284
+    },
+    "360x640::collection-all": {
+      "file": "360x640--collection-all.webp",
+      "bytes": 22236,
+      "sha256": "03173402d1aa4f1bef514b1a6b95770ad763ea01c0e7326c8bcec58b99bdbd4e",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::collection-kanji": {
+      "file": "360x640--collection-kanji.webp",
+      "bytes": 19802,
+      "sha256": "5e3fd28fadb50c020e357d168c369f7b175d4c372f46bf66d9ab805f83077318",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::collection-kanji-empty": {
+      "file": "360x640--collection-kanji-empty.webp",
+      "bytes": 19458,
+      "sha256": "b56317444d7ca444a3ac029b0201473f5f9a9dbad32b97870fa01c31633bcc91",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::collection-lesson": {
+      "file": "360x640--collection-lesson.webp",
+      "bytes": 19552,
+      "sha256": "2055c82cd613e542f52cfc37a545531abf05cec5f5339a7d1ee5bda2a6273906",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::collection-pattern": {
+      "file": "360x640--collection-pattern.webp",
+      "bytes": 18186,
+      "sha256": "a3f14b0553c5b10e44f5b9449e6e446e2c4487f7fd77e923291ece538591aa93",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::editor": {
+      "file": "360x640--editor.webp",
+      "bytes": 21686,
+      "sha256": "10b8f5fa8b45760bfdd0e4c0105780f7de018fede419df6603fa7b8c4f2d3c6e",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::home": {
+      "file": "360x640--home.webp",
+      "bytes": 27646,
+      "sha256": "2b0b6745996b1625480f6eb0847bb9dc7e03abe452bdcd1ae00fec9b97cb9c1e",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::home-resume": {
+      "file": "360x640--home-resume.webp",
+      "bytes": 27650,
+      "sha256": "de023975daf7cdfa90bbd9015a368862ac5220bd06a7fbb1c5ab6e335e89cfa5",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::kanji": {
+      "file": "360x640--kanji.webp",
+      "bytes": 22610,
+      "sha256": "b7da5aee5d7fe2df85cf23172438649f53ff685c70b1c59f940e7fcf430d59e0",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::lessons": {
+      "file": "360x640--lessons.webp",
+      "bytes": 18444,
+      "sha256": "99c6684e1a2d16cd300876f5404b911a69a07d417529b88f0a239f3eb89e7d11",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::patterns": {
+      "file": "360x640--patterns.webp",
+      "bytes": 19164,
+      "sha256": "390079f509b8741f92383cea2b0bb0e9b910a75a7ff5cc1e68e5177757f4b7f8",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::session-active": {
+      "file": "360x640--session-active.webp",
+      "bytes": 17838,
+      "sha256": "c5e8695a9e63cc9007745c55bd9690ebe57fa65dad7905095893a5e877694400",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::session-revealed": {
+      "file": "360x640--session-revealed.webp",
+      "bytes": 20942,
+      "sha256": "f3c4c66c7c89a9c74b6067c27f60391b023b1910080162a97f27b45e813be643",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::settings": {
+      "file": "360x640--settings.webp",
+      "bytes": 19838,
+      "sha256": "583a567af5f3ad580ed58b905c65534ee1ccddd3957324c80a4b827420e2beed",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::stats": {
+      "file": "360x640--stats.webp",
+      "bytes": 21384,
+      "sha256": "df933511c1d4eb5163eae303bdb79685f3f2143c59580d20e04865b9c613cdb4",
+      "columns": 180,
+      "rows": 320
+    },
+    "360x640::transfer": {
+      "file": "360x640--transfer.webp",
+      "bytes": 21680,
+      "sha256": "27c8ed500678083e7abf1c9167b7856cb2107f56e81db5551ac048bf2fbe06bb",
+      "columns": 180,
+      "rows": 320
+    },
+    "390x844::collection-all": {
+      "file": "390x844--collection-all.webp",
+      "bytes": 27690,
+      "sha256": "1fd92a5cf1191589d6f9fec4f9d432591b11593a4abeca1d5bbd2cd9e98064fc",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::collection-kanji": {
+      "file": "390x844--collection-kanji.webp",
+      "bytes": 23412,
+      "sha256": "cd2311123a51941992edefc93c1cd6e1fd635f2095b86265322b96fac72bbb75",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::collection-kanji-empty": {
+      "file": "390x844--collection-kanji-empty.webp",
+      "bytes": 23998,
+      "sha256": "af5882f9f9f83ef91a270fa6237a50c072c6f1b3cb9dcdfb7178737019a474c8",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::collection-lesson": {
+      "file": "390x844--collection-lesson.webp",
+      "bytes": 24328,
+      "sha256": "e055f3a74c695f0176d8ce4fdc3c2371ec41bf6b7b202ad7122a29899a1b0c11",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::collection-pattern": {
+      "file": "390x844--collection-pattern.webp",
+      "bytes": 22738,
+      "sha256": "965a575b349972ab79569e26acd4dfabfd90f2751e1d717ffdc43dbdeb0ddcad",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::editor": {
+      "file": "390x844--editor.webp",
+      "bytes": 25862,
+      "sha256": "81a62a98b9730e68090ce917cd2cac0e9f9b215014221088b2a26e24fc9d24da",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::home": {
+      "file": "390x844--home.webp",
+      "bytes": 32772,
+      "sha256": "333d082da8eb64e367d34bded0623618c292bc086649d85863f7db64467ff714",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::home-resume": {
+      "file": "390x844--home-resume.webp",
+      "bytes": 34944,
+      "sha256": "e4041b757876d91514e9d95910c2985dfc4ce284b0fc6995ed0a94e946ae73ff",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::kanji": {
+      "file": "390x844--kanji.webp",
+      "bytes": 26280,
+      "sha256": "7c466e5a58de0bcc3c11ff49c800d3dc6c179c32122401b996c7951deeedcc21",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::lessons": {
+      "file": "390x844--lessons.webp",
+      "bytes": 22790,
+      "sha256": "34bfda614a1a5d15dbfa1577ec1d2c212f4a7bbca207108792585c7f3c495f08",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::patterns": {
+      "file": "390x844--patterns.webp",
+      "bytes": 22816,
+      "sha256": "cfd51687f67fe9d80d27ceb88b4d88f7e8ef31e1b44c6ba6909f0f7f126989de",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::session-active": {
+      "file": "390x844--session-active.webp",
+      "bytes": 19220,
+      "sha256": "57a29cdceb9eda90a999d6e3a7d138822749e9a5221f426d2d67fe726f4d54fc",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::session-revealed": {
+      "file": "390x844--session-revealed.webp",
+      "bytes": 21962,
+      "sha256": "80278c9ca95e59380b4e05ba8e72903da15a45c340373f8ee2faa450ac9e5ed4",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::settings": {
+      "file": "390x844--settings.webp",
+      "bytes": 25062,
+      "sha256": "144d7b04641fe35bfe0b8e453d7d87f1d64d950539810d6029fc09d6fe80d3b6",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::stats": {
+      "file": "390x844--stats.webp",
+      "bytes": 28372,
+      "sha256": "501a52d0a0a929daf1ad6e0741ce0a4c951e974476aa5d30ccf17d600872fffd",
+      "columns": 195,
+      "rows": 422
+    },
+    "390x844::transfer": {
+      "file": "390x844--transfer.webp",
+      "bytes": 26174,
+      "sha256": "6a56bf7bc793d888a43de1f0445d1f735ea3cc86b09bc89dbef8278ee6ecae80",
+      "columns": 195,
+      "rows": 422
+    },
+    "414x896::collection-all": {
+      "file": "414x896--collection-all.webp",
+      "bytes": 28756,
+      "sha256": "7e5307b47e395be73653300f84ffef4424c83c88848e1f6b0f7743897f13542d",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::collection-kanji": {
+      "file": "414x896--collection-kanji.webp",
+      "bytes": 25478,
+      "sha256": "c76f6c62c65e26a91a2d7a1601459286e7b7983bd11de77a90871ae1113de961",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::collection-kanji-empty": {
+      "file": "414x896--collection-kanji-empty.webp",
+      "bytes": 26558,
+      "sha256": "1a2e021e2832863f068a4264ca28d2f3a2ec71df29d4275412fc2163b550c587",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::collection-lesson": {
+      "file": "414x896--collection-lesson.webp",
+      "bytes": 26092,
+      "sha256": "d4ea417f75eb55de5c58f1b354022a8889c224973ac78afbb3bca0e3bca43899",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::collection-pattern": {
+      "file": "414x896--collection-pattern.webp",
+      "bytes": 24752,
+      "sha256": "fa4094977a21cecc7f2c5bc1e4a3dd202b6a9d031e20feefe89153eaa3f9bfb1",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::editor": {
+      "file": "414x896--editor.webp",
+      "bytes": 26840,
+      "sha256": "8dcd2c3b408463b9fd02a3abd006a51ff91d66dfd8f6f965dc31fa7e519e9519",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::home": {
+      "file": "414x896--home.webp",
+      "bytes": 33644,
+      "sha256": "1acf19742cd74208db4df7160ff5eac6fcd2fcde017e94c73263ab0ef510085b",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::home-resume": {
+      "file": "414x896--home-resume.webp",
+      "bytes": 37132,
+      "sha256": "eef6a234b2c4c24a5fd7872647a54ef493996f970a8f1639ca33f29248574357",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::kanji": {
+      "file": "414x896--kanji.webp",
+      "bytes": 27414,
+      "sha256": "f3da75cbde1d117b95c9ee9e32c4d8499189bf008065cc4ed58119512094451b",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::lessons": {
+      "file": "414x896--lessons.webp",
+      "bytes": 23494,
+      "sha256": "4a242cb348d0b57ac178b738e915ed32f83e80b64ee9fa278ec45d2ab5d3733d",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::patterns": {
+      "file": "414x896--patterns.webp",
+      "bytes": 23934,
+      "sha256": "ef779fbf37491c3c9dc656b6fb4ca9769f0a1f3134cb8cd222efebda75e02254",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::session-active": {
+      "file": "414x896--session-active.webp",
+      "bytes": 19624,
+      "sha256": "27e45a7042fbd7b635bc70caf604eb0d20c6f994fd34d90d7e24a32e6a3bc644",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::session-revealed": {
+      "file": "414x896--session-revealed.webp",
+      "bytes": 22492,
+      "sha256": "7f7c1e9ef4e9c4b7413058c70577ce923461145a764f30496d1020ef97928de0",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::settings": {
+      "file": "414x896--settings.webp",
+      "bytes": 26880,
+      "sha256": "64451b1e792f0fb5794368f4e37e75aac3b3b3cf237d06acc527263945bfd456",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::stats": {
+      "file": "414x896--stats.webp",
+      "bytes": 29932,
+      "sha256": "fce21b418aca32cbb81f2004c185367027a660e452c9e8edb74da3488c1986b5",
+      "columns": 207,
+      "rows": 448
+    },
+    "414x896::transfer": {
+      "file": "414x896--transfer.webp",
+      "bytes": 26710,
+      "sha256": "327c8d780538fe79392ff0628e7de1bbe3cc4b62007c680d3b0ef88196069eb0",
+      "columns": 207,
+      "rows": 448
+    },
+    "667x375::collection-all": {
+      "file": "667x375--collection-all.webp",
+      "bytes": 17576,
+      "sha256": "0d86611b4554ed0336b301927cd1d50b8910e861df44876d1f53496bfbe7b61f",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::collection-kanji": {
+      "file": "667x375--collection-kanji.webp",
+      "bytes": 16114,
+      "sha256": "9507825521fe53e22435bb40f4539810b3623559394f2e0b0ff88dca76712e01",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::collection-kanji-empty": {
+      "file": "667x375--collection-kanji-empty.webp",
+      "bytes": 18760,
+      "sha256": "4ec7c438de1fcdac903c8849ddc2c4602a0bbf0694ff6d3bf681e0f76a401103",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::collection-lesson": {
+      "file": "667x375--collection-lesson.webp",
+      "bytes": 15612,
+      "sha256": "39f77bbf8b147049dfaa954e9d2995cd292f78d2a5a61182c74cd689b5e2f5c0",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::collection-pattern": {
+      "file": "667x375--collection-pattern.webp",
+      "bytes": 16140,
+      "sha256": "90971548403d670785c681b634c01cedb9415e45fd95f95d08a5aac6100ee7e2",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::editor": {
+      "file": "667x375--editor.webp",
+      "bytes": 19608,
+      "sha256": "45a47c830586487d064e7344e018b73d653a4df016393a40b029c8ac7117532d",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::home": {
+      "file": "667x375--home.webp",
+      "bytes": 22936,
+      "sha256": "1eb6997a5395377bdd920bbe9a02c46cb7dddc76fe37da88b8ee9d35303d1995",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::home-resume": {
+      "file": "667x375--home-resume.webp",
+      "bytes": 22936,
+      "sha256": "1eb6997a5395377bdd920bbe9a02c46cb7dddc76fe37da88b8ee9d35303d1995",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::kanji": {
+      "file": "667x375--kanji.webp",
+      "bytes": 18640,
+      "sha256": "336bc2da1ecde7d9b08b84b911762c918a299559e950979fd754a53ded0c8de7",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::lessons": {
+      "file": "667x375--lessons.webp",
+      "bytes": 17802,
+      "sha256": "9dc4ea80d4a65ca2e19f4d2e889bc4e11f5d7962b7c3ddbe109127383e1e8789",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::patterns": {
+      "file": "667x375--patterns.webp",
+      "bytes": 17932,
+      "sha256": "0d8b7dab02594f607498304176d754dd8f2463075483d71d8c2b50d07f564590",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::session-active": {
+      "file": "667x375--session-active.webp",
+      "bytes": 19054,
+      "sha256": "041b2d7431c7671013a3bb821ced09f7ec772d80dd59fab0a3412481b76eb96a",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::session-revealed": {
+      "file": "667x375--session-revealed.webp",
+      "bytes": 22698,
+      "sha256": "77aa3de6dc6438ecbb3a9979d617e54e38b58b4be985c2c50e15ccb0fdcfb479",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::settings": {
+      "file": "667x375--settings.webp",
+      "bytes": 17626,
+      "sha256": "4f4ce5798e303d4af28e7a194d487ef3d998fc23408e79d2b112cc5e5e1d77bb",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::stats": {
+      "file": "667x375--stats.webp",
+      "bytes": 20614,
+      "sha256": "be8a01ccd5c013c6c6aa7784ac679d350169c78a8c8bf860ef4fde9f65c65543",
+      "columns": 334,
+      "rows": 188
+    },
+    "667x375::transfer": {
+      "file": "667x375--transfer.webp",
+      "bytes": 18728,
+      "sha256": "366c56d6620c63591e8d33f077f4514335f628edaa3c71674bff28da11eb6062",
+      "columns": 334,
+      "rows": 188
+    },
+    "768x1024::collection-all": {
+      "file": "768x1024--collection-all.webp",
+      "bytes": 34302,
+      "sha256": "5f13767dd97410f5e738783fe1fbf13d1778399d47d3d85b3ab49c0d1f7e0a1a",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::collection-kanji": {
+      "file": "768x1024--collection-kanji.webp",
+      "bytes": 34144,
+      "sha256": "23406e80e86c4f6408d037f39c292b87c0fd210b8fe4ce1aa88af2ba6f1fe24a",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::collection-kanji-empty": {
+      "file": "768x1024--collection-kanji-empty.webp",
+      "bytes": 49486,
+      "sha256": "4e9a4f897974f2a2e17f197cd4e2e778a10fbb17670317b9d89c5e0f527f4eac",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::collection-lesson": {
+      "file": "768x1024--collection-lesson.webp",
+      "bytes": 36606,
+      "sha256": "8f2b97af8ccb4f2a551efd5bd42bba2a0b5ab0e58348b41f1d1243344780d1e7",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::collection-pattern": {
+      "file": "768x1024--collection-pattern.webp",
+      "bytes": 47520,
+      "sha256": "3dd083cadc8818e617861ffe818271635cb1c8288695fc0a14fc03d220592cc2",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::editor": {
+      "file": "768x1024--editor.webp",
+      "bytes": 34786,
+      "sha256": "57944711c2435136950bd90192fea43b449c3bf9abf5108e81daa5bf40f902d7",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::home": {
+      "file": "768x1024--home.webp",
+      "bytes": 38518,
+      "sha256": "a567acd12cf835ed693cf5f106417c5d860febb04fa2ec5e4d9869bb0161f001",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::home-resume": {
+      "file": "768x1024--home-resume.webp",
+      "bytes": 41562,
+      "sha256": "cac5a0f09f427e48b60b15fd6ce24c9702fb92e78e7461f8f75926112a23b29e",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::kanji": {
+      "file": "768x1024--kanji.webp",
+      "bytes": 31850,
+      "sha256": "0e5730afd2502ab17d31e8a0217a4d68f8f423a9b773e8645b5a8d7d7705092f",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::lessons": {
+      "file": "768x1024--lessons.webp",
+      "bytes": 28092,
+      "sha256": "0eb7812cfe21b33a46d0ae0090bdcdce180d16af1db54ffbd92438941ec80d0f",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::patterns": {
+      "file": "768x1024--patterns.webp",
+      "bytes": 39178,
+      "sha256": "e6484198e8565566a2c95016463e0f405fc467bef7b3168979ee6b076772f4ec",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::session-active": {
+      "file": "768x1024--session-active.webp",
+      "bytes": 25324,
+      "sha256": "3c34d349eac2242b93c6479803e02945d12f98be1e68e7e3a1e1be6d6a57bb50",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::session-revealed": {
+      "file": "768x1024--session-revealed.webp",
+      "bytes": 28096,
+      "sha256": "e0d6081fc9cb661380b58e518c617b8dfb5435237f63b5dc8bd565fe013bca7c",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::settings": {
+      "file": "768x1024--settings.webp",
+      "bytes": 37540,
+      "sha256": "267f6dc7f4aa834c6f79856febb7f51309acd0ba04e5d7fb1dcd816b4f4a9ff9",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::stats": {
+      "file": "768x1024--stats.webp",
+      "bytes": 41934,
+      "sha256": "3571e9da215645f27f0453098b783585686a6dc841d4ee378852d7ea63c1e53d",
+      "columns": 384,
+      "rows": 512
+    },
+    "768x1024::transfer": {
+      "file": "768x1024--transfer.webp",
+      "bytes": 35088,
+      "sha256": "a542b8beddc40fa545ae3cfde24630807132e30d9991640e1fd122af7f81bd6a",
+      "columns": 384,
+      "rows": 512
+    },
+    "820x1180::collection-all": {
+      "file": "820x1180--collection-all.webp",
+      "bytes": 40902,
+      "sha256": "aa0b79c0b42af139a74498ff1afd936faa7e4e59b75a20ab1ee9cf11f5feffc4",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::collection-kanji": {
+      "file": "820x1180--collection-kanji.webp",
+      "bytes": 39058,
+      "sha256": "5008a02c62061c5b69699ed8a434fdfe7e0fda6b337ee23f64df479dc60a7556",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::collection-kanji-empty": {
+      "file": "820x1180--collection-kanji-empty.webp",
+      "bytes": 60576,
+      "sha256": "9147101981e63136822c82136ba663b809dd81e7e54b2c74a43ba6b90c0b837b",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::collection-lesson": {
+      "file": "820x1180--collection-lesson.webp",
+      "bytes": 38662,
+      "sha256": "6a92c86fea94073f6ca344ab2271e4f2f92071dcd9c51befdbbd7bc9a4e2285a",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::collection-pattern": {
+      "file": "820x1180--collection-pattern.webp",
+      "bytes": 58662,
+      "sha256": "17ec88d0baecc8f244e415a371afca633f3541d5a24616c87ef61aeebd534684",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::editor": {
+      "file": "820x1180--editor.webp",
+      "bytes": 38244,
+      "sha256": "19be4de89e89e5e45260e9a3d8042085f6ab208536fb298fc9d11c2499651b3a",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::home": {
+      "file": "820x1180--home.webp",
+      "bytes": 49146,
+      "sha256": "13e2ce63a4fea2f006cd2eec39844a7cebab8575983bb29fdf0d8003acbba5ad",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::home-resume": {
+      "file": "820x1180--home-resume.webp",
+      "bytes": 46880,
+      "sha256": "c87cf875c16ad027f76c02568adf826df234f021b0a860dea73d422b39ae8c65",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::kanji": {
+      "file": "820x1180--kanji.webp",
+      "bytes": 39946,
+      "sha256": "82ff06ca44f38decb911ed4f72b4fe1c23b312a2a7c433fc648cde3e0c68205e",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::lessons": {
+      "file": "820x1180--lessons.webp",
+      "bytes": 58250,
+      "sha256": "a63ce4a1d8c0e5e24e3b09d7b9ad9a7a035d22727bf1601b0abb898760fd5217",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::patterns": {
+      "file": "820x1180--patterns.webp",
+      "bytes": 42944,
+      "sha256": "669e26ef6e1697cd558229f72a8a9be8d4c0c66ddef3edd15b2c21c26b420e16",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::session-active": {
+      "file": "820x1180--session-active.webp",
+      "bytes": 26618,
+      "sha256": "50a18c37db6422fe8355731fe0f81bed5b35ff85e7a4f06c7f905e9a71ec7b91",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::session-revealed": {
+      "file": "820x1180--session-revealed.webp",
+      "bytes": 29432,
+      "sha256": "83eeab0cb7095c6d0b94fdcc62e69f718a470df479fcde96e14fe9c670f06274",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::settings": {
+      "file": "820x1180--settings.webp",
+      "bytes": 46508,
+      "sha256": "06c873a1b4d0d2c418711098fea44fd3d36333934583e28655241bd4e3978bc2",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::stats": {
+      "file": "820x1180--stats.webp",
+      "bytes": 46236,
+      "sha256": "5408a3eb6e61c7e66e1d382d58ad24f0a098e0909c8c41f8c47e917aa59b26fc",
+      "columns": 410,
+      "rows": 590
+    },
+    "820x1180::transfer": {
+      "file": "820x1180--transfer.webp",
+      "bytes": 58502,
+      "sha256": "422919c9d4bc1e0042bedefed69fbbff14f4ccadeec9257e48278bc6e26fd854",
+      "columns": 410,
+      "rows": 590
+    },
+    "844x390::collection-all": {
+      "file": "844x390--collection-all.webp",
+      "bytes": 19684,
+      "sha256": "807f3a39bd526bcdcd1fd514b9d7ffa1dd3e689bac9adc28af89bed12651181a",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::collection-kanji": {
+      "file": "844x390--collection-kanji.webp",
+      "bytes": 17970,
+      "sha256": "3b8dbae92c72eaf56004dbc9700a3ed302f655e8c097105efd297f7c80151831",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::collection-kanji-empty": {
+      "file": "844x390--collection-kanji-empty.webp",
+      "bytes": 20260,
+      "sha256": "5e9b4daec0dabd927cfee6b6ba606d02d96b81a5797944201ac83e3aa081b57b",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::collection-lesson": {
+      "file": "844x390--collection-lesson.webp",
+      "bytes": 17528,
+      "sha256": "06f79abb3a494b9a4dc6ff1d4f9a6438e8af2c1e8196a3d9323f15ef91b9afe2",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::collection-pattern": {
+      "file": "844x390--collection-pattern.webp",
+      "bytes": 17792,
+      "sha256": "f4c74f541f60e07bdae5e48a2ccdc2a761e399f9e18d78900dc51eae053747f5",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::editor": {
+      "file": "844x390--editor.webp",
+      "bytes": 22836,
+      "sha256": "1c6225c88731487664498513bed8b280560b4aa0b7c7cc5a59a8cd34adb2933d",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::home": {
+      "file": "844x390--home.webp",
+      "bytes": 25020,
+      "sha256": "e01910280dbcbfa48c7043ac9931a854d3d79021501aa28de6edc9e63e2d5ee4",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::home-resume": {
+      "file": "844x390--home-resume.webp",
+      "bytes": 25020,
+      "sha256": "e01910280dbcbfa48c7043ac9931a854d3d79021501aa28de6edc9e63e2d5ee4",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::kanji": {
+      "file": "844x390--kanji.webp",
+      "bytes": 19968,
+      "sha256": "3187bc5daf312bb820b529ac567d9bab3975f344befc17229a0b7182ae36e2c6",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::lessons": {
+      "file": "844x390--lessons.webp",
+      "bytes": 20338,
+      "sha256": "fe306b4173997f8b02de1a892f7c52d39af32ee402553e2fb93b0e7a1f386406",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::patterns": {
+      "file": "844x390--patterns.webp",
+      "bytes": 20624,
+      "sha256": "1f26b195d838f743dea191503f93b97ce6ad49656a46999a1c833da6dbde3903",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::session-active": {
+      "file": "844x390--session-active.webp",
+      "bytes": 20812,
+      "sha256": "09c4a8d202f011c75ddb4cc8e898b1f5a08539e9eabf4f3c58a290d86fef28c6",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::session-revealed": {
+      "file": "844x390--session-revealed.webp",
+      "bytes": 24806,
+      "sha256": "59b4bd6070c40e9ca26d22c5f794487e0486ac97caa387e375bb0562107f9f49",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::settings": {
+      "file": "844x390--settings.webp",
+      "bytes": 20914,
+      "sha256": "c8d0a1861acd1f8b45aec151221bb4c27a4c9b9c49e98b79459ea2492f51c5df",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::stats": {
+      "file": "844x390--stats.webp",
+      "bytes": 22700,
+      "sha256": "3d0b8a0c656abf33e807d98bca51ddc4210a18f27a24ff461af581d4c0971004",
+      "columns": 422,
+      "rows": 195
+    },
+    "844x390::transfer": {
+      "file": "844x390--transfer.webp",
+      "bytes": 21638,
+      "sha256": "f605af4cf8db8cee62f228c9d9208d2a203fc2772c7c72b64e780f4458a380a7",
+      "columns": 422,
+      "rows": 195
+    }
+  }
+}

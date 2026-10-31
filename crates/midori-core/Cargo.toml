@@ -1,0 +1,12 @@
+[package]
+name = "midori-core"
+description = "Business logic của Midori — thuần Rust, không phụ thuộc nền tảng"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+# Không dùng `unicode-normalization`: bảng NFKC đầy đủ làm file WASM tăng
+# ~128 KB (đo được: 341 KB → 213 KB khi bỏ). Xem `docs/decisions.md`.
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true

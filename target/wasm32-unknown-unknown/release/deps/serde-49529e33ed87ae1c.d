@@ -1,0 +1,14 @@
+/home/hyprland/Dự án/midori/target/wasm32-unknown-unknown/release/deps/serde-49529e33ed87ae1c.d: /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/lib.rs /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/integer128.rs /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/mod.rs /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/de.rs /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/ser.rs /home/hyprland/Dự\ án/midori/target/wasm32-unknown-unknown/release/build/serde-3233855caad5d225/out/private.rs
+
+/home/hyprland/Dự án/midori/target/wasm32-unknown-unknown/release/deps/libserde-49529e33ed87ae1c.rlib: /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/lib.rs /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/integer128.rs /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/mod.rs /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/de.rs /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/ser.rs /home/hyprland/Dự\ án/midori/target/wasm32-unknown-unknown/release/build/serde-3233855caad5d225/out/private.rs
+
+/home/hyprland/Dự án/midori/target/wasm32-unknown-unknown/release/deps/libserde-49529e33ed87ae1c.rmeta: /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/lib.rs /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/integer128.rs /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/mod.rs /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/de.rs /home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/ser.rs /home/hyprland/Dự\ án/midori/target/wasm32-unknown-unknown/release/build/serde-3233855caad5d225/out/private.rs
+
+/home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/lib.rs:
+/home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/integer128.rs:
+/home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/mod.rs:
+/home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/de.rs:
+/home/hyprland/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/ser.rs:
+/home/hyprland/Dự\ án/midori/target/wasm32-unknown-unknown/release/build/serde-3233855caad5d225/out/private.rs:
+
+# env-dep:OUT_DIR=/home/hyprland/Dự án/midori/target/wasm32-unknown-unknown/release/build/serde-3233855caad5d225/out

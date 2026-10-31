@@ -1,0 +1,40 @@
+{
+  "name": "midori",
+  "private": true,
+  "version": "1.0.4",
+  "type": "module",
+  "description": "PWA flashcard Việt–Nhật, offline-first, lõi nghiệp vụ bằng Rust/WASM",
+  "scripts": {
+    "wasm": "wasm-pack build crates/midori-wasm --target web --release --no-pack --out-dir ../../src/generated/midori-wasm --out-name midori_wasm",
+    "content": "node scripts/build-content.mjs",
+    "content:audit": "node scripts/audit-content.mjs",
+    "generate": "npm run wasm && npm run content",
+    "icons": "node scripts/gen-icons.mjs",
+    "dev": "npm run generate && vite",
+    "build": "npm run generate && vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "typecheck": "svelte-check --tsconfig ./tsconfig.json --threshold error",
+    "test:rust": "cargo test --workspace",
+    "test:js": "node --test tests/*.test.ts",
+    "test": "npm run test:rust && npm run test:js",
+    "check": "npm run typecheck && npm run test",
+    "benchmark:core": "node scripts/benchmark-core.mjs",
+    "audit:layout": "node scripts/audit-layout.mjs",
+    "audit:multi-env": "node scripts/audit-multi-env.mjs",
+    "deploy": "npx wrangler login && pnpm run build && npx wrangler pages deploy dist --project-name=midori"
+  },
+  "dependencies": {
+    "idb": "^8.0.4",
+    "svelte": "^5.57.2"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.2.4",
+    "@types/node": "^26.6.5",
+    "fake-indexeddb": "^6.2.5",
+    "svelte-check": "^4.7.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.7",
+    "vite-plugin-pwa": "^1.3.0",
+    "wrangler": "^4.154.0"
+  }
+}
